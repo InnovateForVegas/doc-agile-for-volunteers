@@ -30,9 +30,10 @@ Unless otherwise and specifically indicated with replacement files in this repos
 
 ## Organization Workflow
 
-All Innovate for Vegas Foundation projects assume contributors and collaborators are familiar with the HOWTOs that detail such things as use of GitHub, our approach to Agile for Volunteers (or Volunteer Agile) as detailed in this initiative project as a collaborative work in progress, and communicating commitment to contribution to any particular initiative project. These, coupled with the Contributing document linked above, are important and you should be familiar with them before diving in.
+All Innovate for Vegas Foundation projects assume contributors and collaborators are familiar with our HOWTOs which detail such things as use of GitHub, naming things, and other day-to-day operational matters. These, coupled with the Contributing document linked above, are important and you should be familiar with them before diving in.
 
-* [Organization HOWTOs](https://github.com/InnovateForVegas/doc-org-howtos)
+* [Organization HOWTOs Repository](https://github.com/InnovateForVegas/doc-org-howtos)
+* This Agile for Volunteers Repository and its contents
 
 ## Welcome
 
