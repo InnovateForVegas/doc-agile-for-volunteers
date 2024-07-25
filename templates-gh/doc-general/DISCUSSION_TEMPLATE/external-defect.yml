@@ -1,0 +1,116 @@
+# Copyright (C) 2024 Innovate for Vegas Foundation
+# 
+# This file is part of doc-agile-for-volunteers.
+# 
+# doc-agile-for-volunteers is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-agile-for-volunteers is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
+
+name: External Defect
+title: "[External Defect]: Edit title after colon"
+labels:
+  - extbug
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # External Defect
+
+        Please use this Discussion Category to describe an issue, problem, or defect
+        you have encountered developing or interacting with this Component Project.
+
+        We presume here that you are somewhat familiar with the details of this Component
+        Project, its implementation, and the Initiative elements (User Stories, etc) on
+        which it is based so that you can connect what you are seeing with what you
+        should be seeing, and so that you know that this is the correct component project
+        around which to begin this discussion.
+
+        Please take a moment to fill this in, your GitHub credentials will be used to
+        attribute your contribution to this component project, and to the overall initiative,
+        unless you would rather opt out.
+
+  - type: markdown
+    attributes:
+      value: "## Short Description"
+        
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Brief Summary Description of the Reported Defect
+      description: Augments the issue title with an extended description
+
+    validations:
+      required: true
+
+
+  - type: markdown
+    attributes:
+      value: "## Me as User"
+
+  - type: markdown
+    attributes:
+      value: |
+        User types:
+        - **User Type A** brief discussion of user type A
+        - **User Type B** brief discussion of user type B
+        - **User Type C** brief discussion of user type C
+        - et al
+
+  - type: dropdown
+    id: user
+    attributes:
+      label: I am a…
+      description: So we can consider some implementation specifics.
+      options:
+        - User Type A
+        - User Type B
+        - User Type C
+        - et al
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "# Detail"
+
+  - type: markdown
+    attributes:
+      value: "## Context"
+        
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Describe Platform, Device, Operating System, Versions, etc
+      description: These details are critical in the process of isolation and fixing!
+
+    validations:
+      required: true
+
+
+  - type: markdown
+    attributes:
+      value: "## Full Description (Report Body)"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed description include reproducibility, specific parameters, and so on.
+      description: Augments the issue title with an extended description
+      placeholder: |
+        Try to be as specific and detailed as possible so that the circumstances of the bug
+        as encountered can be reproduced for debugging and fixing. There will like be continued
+        discussion as examination commences and continues.
+
+    validations:
+      required: true
