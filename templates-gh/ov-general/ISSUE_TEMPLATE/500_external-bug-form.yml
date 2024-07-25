@@ -1,0 +1,201 @@
+# Copyright (C) 2024 Innovate for Vegas Foundation
+# 
+# This file is part of doc-agile-for-volunteers.
+# 
+# doc-agile-for-volunteers is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-agile-for-volunteers is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
+
+name: External Bug
+description: A problem report tracked here prior to triage and distillation
+title: "[External Bug]: Edit title after colon"
+labels:
+  - extbug
+  - triage
+projects:
+  - Case-Sensitive-Org/0
+assignees:
+  - OneOrMoreGitHubUsers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # External Bug
+
+        An external User or Customer may encounter a problem using or testing
+        some element(s) of the Initiative in whatever form they have had access
+        to it. We presume that a Bug Report may be filed externally and in fact
+        completely outside of the GitHub user account universe, sent via email,
+        or some other means, so that it may be ingested and stored in an Initiative-level
+        *External Bug* before it can be triaged and split into actual Defects.
+
+        One presumption is, an external User or Customer may not be familiar with the
+        details of an Initiative, nor perhaps the specific Component Project to which a
+        problem should be ascribed, so this is left to the internal Triage process.
+
+        If at all possible, the original filer(s) of issues should be apprised of the
+        status of their reported findings as they are addressed, and there is a case
+        to be made for inclusion of filers of such reports as contributors to
+        all or part of the Initiative (at their opt-in of course).
+
+
+
+# This displayed list of User types should match the dropdown list below
+# Edit to match Agile User types for this initiative
+  - type: markdown
+    attributes:
+      value: |
+        User types *for this initiative*:
+        - **User Type A** brief discussion of user type A
+        - **User Type B** brief discussion of user type B
+        - **User Type C** brief discussion of user type C
+        - et al
+
+  - type: markdown
+    attributes:
+      value: |
+        **Please compose Conversation and Confirmation elements in the first person, as though you are the selected User.**
+      
+  - type: markdown
+    attributes:
+      value: "# Submitter/Reporter as User Type"
+
+  - type: dropdown
+    id: card
+    attributes:
+      label: As a …
+      description: Who are we getting a report from?
+# Options in this dropdown list should match the display list of User types above
+      options:
+        - Unknown
+        - User Type A
+        - User Type B
+        - User Type C
+        - et al
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "# Detail"
+
+  - type: markdown
+    attributes:
+      value: "## Short Description"
+        
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Brief Summary Description of the Reported Bug
+      description: Augments the issue title with an extended description
+
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Full Description (Report Body)"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Full Description of the Reported Bug as Received
+      description: Augments the issue title with an extended description
+      placeholder: |
+        Actual Bug Report as submitted, as complete as possible, including a link
+        or other reference to the original report (if submitted via a public-facing
+        bug-report tool, etc)
+
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Bug Reporter Contact and Attribution"
+
+  - type: checkboxes
+    id: reporteropts
+    attributes:
+      label: Reporter Contact and Attribution
+      description: Select and update all that apply
+      options:
+        - label: Contact Information Available 
+        - label: Contact Information Redacted For Privacy
+        - label: Contact Reporter with Status Updates
+        - label: Attribution Information Available
+        - label: Attribute Contribution(s) to Reporter
+
+  - type: input
+    id: reportercontact
+    attributes:
+      label: Reporter Contact and Attribution
+      description: "Name, Email, etc as needed for opt-in follow-up and contribution attribution"
+      placeholder: "Example: John Doe<jdoe@example.com>"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "# Intra-Overview and Implementation Repository Linked Issue(s)"
+
+  - type: markdown
+    attributes:
+      value: |
+        Issues should be linked by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a task list indicating the link relationship.
+        Identifying relationships between issues within the initiative hierarchy should
+        be easier than without this information.
+
+        Tags and Linked Issues
+        - defect: --> a Defect Issue in a Component Project repo derived from this External Bug Report
+        - feature: --> an Initiative Feature Issue derived from this External Bug report
+        - story: --> an Initiative Story Issue derived from this External Bug Report
+
+        External Bug issue(s) should be **Closed as Not Planned** after they are triaged and used to
+        link to existing and/or create new Initiative Feature or User Story issue(s) and/or Defect Issue(s)
+        in appropriate Component Project Repo(s).
+
+  - type: textarea
+    id: linking
+    attributes:
+      label: Issues linked within the Initiative Overview Repo and/or to Component Project Repos
+      description: "Tag entries with defect: , feature: , or story: "
+      placeholder: |
+        - [ ] defect: issue link to a related component project repo
+        - [ ] feature: issue link to a new or related initiative feature
+        - [ ] story: issue link to a new or related initiative user story
+
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "# Wrap-Up"
+
+  - type: textarea
+    id: wrapup
+    attributes:
+      label: Post-Bug-Triage comments, observations, notes
+      description: To aid in iterative process improvement and learning
+      placeholder: |
+        Anything that may contribute to handling of other External Bug reports.
+
+    validations:
+      required: false
+
+  - type: markdown
+    attributes: 
+      value: |
+        ## Helpful Issue-filing Links
+        - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
+
