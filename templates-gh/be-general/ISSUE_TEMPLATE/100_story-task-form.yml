@@ -48,11 +48,11 @@ body:
         Tags and Linked Issues
         - story: --> User Story Issue located in a separate repository
         - merge-to: --> a Task that is a merging of this and other Tasks
-        - merge-from: --> a Task that was merged into this Task
+        - merge-from: <-- a Task that was merged into this Task
         - split-to: --> a Task that is one of multiple Tasks derived from this Task
-        - split-from: --> a Task that was split into this and other Tasks
+        - split-from: <-- a Task that was split into this and other Tasks
         - spike-to: --> a virtual Task for planning and estimation of related Tasks
-        - spike-from: --> a real Task connected to a virtual spike Task
+        - spike-from: <-- a real Task connected to a virtual spike Task
 
         Merge-to and Split-to Task issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded User Story issue(s), as appropriate. Do not delete, mark as merge
