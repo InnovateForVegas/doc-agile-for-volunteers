@@ -83,11 +83,11 @@ body:
         Tags and Linked Issues
         - epic: --> an Epic in this Agile hierarchy
         - merge-to: --> a Theme that is a merging of this and other Theme(s)
-        - merge-from: --> a Theme that was merged into this Theme
+        - merge-from: <-- a Theme that was merged into this Theme
         - split-to: --> a Theme that is one of multiple Themes derived from this Theme
-        - split-from: --> a Theme that was split into this and other Themes
+        - split-from: <-- a Theme that was split into this and other Themes
         - spike-to: --> a virtual Theme for planning and estimation of related Themes
-        - spike-from: --> a real Theme connected to a virtual spike Theme
+        - spike-from: <-- a real Theme connected to a virtual spike Theme
 
         Merge-to and Split-to Theme issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded Theme issue(s), as appropriate. Do not delete, mark as merge

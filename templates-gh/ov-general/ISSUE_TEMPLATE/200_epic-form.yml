@@ -34,9 +34,11 @@ body:
         An Epic is a collection of related Features which combine to form a
         level of functionality within an Initiative **Theme**.
         
-        One or more Epics will form the base for an Agile Iteration. 
+        One or more Epics will form the basis of one or more Agile Iterations. It is likely that any
+        Epic(s) will span more than a single Iteration, but this may vary. 
 
-        We can describe an Epic directly as an **Objective** and **Key Results** (OKRs).
+        We can describe an Epic directly as an **Objective** and **Key Results** (OKRs), with more granular
+        descriptions in each related **Feature**.
 
   - type: markdown
     attributes:
@@ -83,11 +85,11 @@ body:
         - theme: --> the parent Theme in this Agile hierarchy for this Epic
         - feature: --> a child Feature in this Agile hierarchy for this Epic
         - merge-to: --> an Epic that is a merging of this and other Epic(s)
-        - merge-from: --> an Epic that was merged into this Epic
+        - merge-from: <-- an Epic that was merged into this Epic
         - split-to: --> an Epic that is one of multiple Epics derived from this Epic
-        - split-from: --> an Epic that was split into this and other Epics
+        - split-from: <-- an Epic that was split into this and other Epics
         - spike-to: --> a virtual Epic for planning and estimation of related Epics
-        - spike-from: --> a real Epic connected to a virtual spike Epic
+        - spike-from: <-- a real Epic connected to a virtual spike Epic
 
         Merge-to and Split-to Epic issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded Epic issue(s), as appropriate. Do not delete, mark as merge
