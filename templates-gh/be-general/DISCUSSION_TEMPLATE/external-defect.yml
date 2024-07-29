@@ -45,7 +45,7 @@ body:
   - type: textarea
     id: shortdesc
     attributes:
-      label: Brief Summary Description of the Reported Defect
+      label: Brief Description
       description: Augments the issue title with an extended description
 
     validations:
@@ -56,42 +56,29 @@ body:
     attributes:
       value: "## Me as User"
 
-  - type: markdown
+  - type: checkboxes
     attributes:
-      value: |
-        User types:
-        - **User Type A** brief discussion of user type A
-        - **User Type B** brief discussion of user type B
-        - **User Type C** brief discussion of user type C
-        - et al
-
-  - type: dropdown
-    id: user
-    attributes:
-      label: I am a…
-      description: So we can consider some implementation specifics.
+      label: I am a …
+      description: Use context in which this bug was encountered
       options:
-        - User Type A
-        - User Type B
-        - User Type C
-        - et al
-      default: 0
-    validations:
-      required: true
+        - label: "**User Type A** description"
+        - label: "**User Type B** description"
+        - label: "**User Type C** description"
+
 
   - type: markdown
     attributes:
-      value: "# Detail"
+      value: "## Environment"
 
-  - type: markdown
-    attributes:
-      value: "## Context"
-        
   - type: textarea
-    id: shortdesc
+    id: environment
     attributes:
-      label: Describe Platform, Device, Operating System, Versions, etc
-      description: These details are critical in the process of isolation and fixing!
+      label: Environment
+      description: OS, Device, other configuration details
+      placeholder: |
+        - OS, Device(s), Platform(s), versions
+        - Runtime environment
+        - Other useful details to replicate your setup
 
     validations:
       required: true
@@ -99,13 +86,13 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Full Description (Report Body)"
+      value: "## Full Description"
 
   - type: textarea
     id: description
     attributes:
-      label: Detailed description include reproducibility, specific parameters, and so on.
-      description: Augments the issue title with an extended description
+      label: Full Description
+      description: Detailed description include reproducibility, specific parameters, and so on
       placeholder: |
         Try to be as specific and detailed as possible so that the circumstances of the bug
         as encountered can be reproduced for debugging and fixing. There will like be continued

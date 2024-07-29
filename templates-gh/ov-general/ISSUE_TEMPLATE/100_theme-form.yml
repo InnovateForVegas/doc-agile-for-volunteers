@@ -41,7 +41,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Theme Objective"
+      value: "## Theme Objective"
         
   - type: textarea
     id: objective
@@ -54,7 +54,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Key Results"
+      value: "## Key Results"
         
   - type: textarea
     id: keyresults
@@ -64,13 +64,13 @@ body:
       placeholder: |
         - A list of one or more measurable
         - and demonstrably-achieved results
-        - Check off during Wrap-Up
+        - Check off items in implementation(s)
     validations:
       required: true
 
   - type: markdown
     attributes:
-      value: "# Intra-Overview Linked Issue(s)"
+      value: "## Issue Linking"
 
   - type: markdown
     attributes:
@@ -90,13 +90,14 @@ body:
         - spike-from: <-- a real Theme connected to a virtual spike Theme
 
         Merge-to and Split-to Theme issue(s) should be **Closed as Not Planned** in favor of the
-        consolidated or expanded Theme issue(s), as appropriate. Do not delete, mark as merge
-        or split and **Closed as Not Planned**.
+        consolidated or expanded Theme issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
 
   - type: textarea
     id: linking
     attributes:
-      label: Issues linked within the Initiative Overview Repository from or to this Theme issue
+      label: Linked Issues
       description: "Tag entries with theme: , epic: , story: , merge-to: , split-from: , etc"
       placeholder: |
         - epic: issue link within overview
@@ -108,7 +109,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# References"
+      value: "## References"
         
   - type: textarea
     id: references
@@ -126,7 +127,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Wrap-Up"
+      value: "## Wrap-Up"
 
   - type: textarea
     id: wrapup

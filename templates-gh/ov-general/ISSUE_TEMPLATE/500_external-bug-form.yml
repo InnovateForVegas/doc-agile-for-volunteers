@@ -48,47 +48,6 @@ body:
         all or part of the Initiative (at their opt-in of course).
 
 
-
-# This displayed list of User types should match the dropdown list below
-# Edit to match Agile User types for this initiative
-  - type: markdown
-    attributes:
-      value: |
-        User types *for this initiative*:
-        - **User Type A** brief discussion of user type A
-        - **User Type B** brief discussion of user type B
-        - **User Type C** brief discussion of user type C
-        - et al
-
-  - type: markdown
-    attributes:
-      value: |
-        **Please compose Conversation and Confirmation elements in the first person, as though you are the selected User.**
-      
-  - type: markdown
-    attributes:
-      value: "# Submitter/Reporter as User Type"
-
-  - type: dropdown
-    id: card
-    attributes:
-      label: As a …
-      description: Who are we getting a report from?
-# Options in this dropdown list should match the display list of User types above
-      options:
-        - Unknown
-        - User Type A
-        - User Type B
-        - User Type C
-        - et al
-      default: 0
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: "# Detail"
-
   - type: markdown
     attributes:
       value: "## Short Description"
@@ -96,11 +55,27 @@ body:
   - type: textarea
     id: shortdesc
     attributes:
-      label: Brief Summary Description of the Reported Bug
+      label: Brief Description
       description: Augments the issue title with an extended description
 
     validations:
       required: true
+
+
+  - type: markdown
+    attributes:
+      value: "## Submitter/Reporter as User Type"
+
+  - type: checkboxes
+    attributes:
+      label: As a …
+      description: Who are we getting a report from? Check all which apply.
+      options:
+        - label: "**Unknown** No user type given or determined"
+        - label: "**User Type A** description"
+        - label: "**User Type B** description"
+        - label: "**User Type C** description"
+
 
   - type: markdown
     attributes:
@@ -109,8 +84,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Full Description of the Reported Bug as Received
-      description: Augments the issue title with an extended description
+      label: Full Description
+      description: Information as reported in full
       placeholder: |
         Actual Bug Report as submitted, as complete as possible, including a link
         or other reference to the original report (if submitted via a public-facing
@@ -146,7 +121,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Intra-Overview and Implementation Repository Linked Issue(s)"
+      value: "## Issue Linking"
 
   - type: markdown
     attributes:
@@ -168,7 +143,7 @@ body:
   - type: textarea
     id: linking
     attributes:
-      label: Issues linked within the Initiative Overview Repo and/or to Component Project Repos
+      label: Linked Issues
       description: "Tag entries with defect: , feature: , or story: "
       placeholder: |
         - defect: issue link to a related component project repo
@@ -180,7 +155,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Wrap-Up"
+      value: "## Wrap-Up"
 
   - type: textarea
     id: wrapup

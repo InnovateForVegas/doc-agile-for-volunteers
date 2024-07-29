@@ -42,7 +42,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Epic Objective"
+      value: "## Epic Objective"
         
   - type: textarea
     id: objective
@@ -55,7 +55,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Key Results"
+      value: "## Key Results"
         
   - type: textarea
     id: keyresults
@@ -65,13 +65,13 @@ body:
       placeholder: |
         - A list of one or more measurable
         - and demonstrably-achieved results
-        - Check off during Wrap-Up
+        - Check off items in implementation(s)
     validations:
       required: true
 
   - type: markdown
     attributes:
-      value: "# Intra-Overview Linked Issue(s)"
+      value: "## Issue Linking"
 
   - type: markdown
     attributes:
@@ -92,13 +92,14 @@ body:
         - spike-from: <-- a real Epic connected to a virtual spike Epic
 
         Merge-to and Split-to Epic issue(s) should be **Closed as Not Planned** in favor of the
-        consolidated or expanded Epic issue(s), as appropriate. Do not delete, mark as merge
-        or split and **Closed as Not Planned**.
+        consolidated or expanded Epic issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
 
   - type: textarea
     id: linking
     attributes:
-      label: Issues linked within the Initiative Overview Repository from or to this Eoic issue
+      label: Linked Issues
       description: "Tag entries with theme: , epic: , merge-to:, split-from:, etc"
       placeholder: |
         - theme: issue link within overview
@@ -110,7 +111,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# References"
+      value: "## References"
         
   - type: textarea
     id: references
@@ -128,7 +129,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Wrap-Up"
+      value: "## Wrap-Up"
 
   - type: textarea
     id: wrapup
