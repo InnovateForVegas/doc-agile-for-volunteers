@@ -55,8 +55,9 @@ body:
         - spike-from: <-- a real Task connected to a virtual spike Task
 
         Merge-to and Split-to Task issue(s) should be **Closed as Not Planned** in favor of the
-        consolidated or expanded User Story issue(s), as appropriate. Do not delete, mark as merge
-        or split and **Closed as Not Planned**.
+        consolidated or expanded User Story issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
 
   - type: textarea
     id: linking
@@ -74,7 +75,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Strategy"
+      value: "## Strategy"
         
   - type: textarea
     id: strategy
@@ -92,12 +93,12 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Wrap-Up"
+      value: "## Wrap-Up"
 
   - type: textarea
     id: wrapup
     attributes:
-      label: Post-Implementation comments, observations, notes
+      label: Wrap-up
       description: To aid in iterative process improvement and learning
       placeholder: |
         Anything that may contribute to other Tasks for Implementation and

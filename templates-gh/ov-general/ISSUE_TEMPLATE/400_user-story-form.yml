@@ -40,44 +40,34 @@ body:
         
         Multiple tasks in multiple repositories may implement a User Story or Stories.
 
-# This displayed list of User types should match the dropdown list below
-# Edit to match Agile User types for this initiative 
-  - type: markdown
-    attributes:
-      value: |
-        User types *for this initiative*:
-        - **User Type A** brief discussion of user type A
-        - **User Type B** brief discussion of user type B
-        - **User Type C** brief discussion of user type C
-        - et al
-
-  - type: markdown
-    attributes:
-      value: |
         **Please compose Conversation and Confirmation elements in the first person, as though you are the selected User.**
+
       
   - type: markdown
     attributes:
-      value: "# Card"
+      value: "## Card"
 
-  - type: dropdown
-    id: card
+  - type: markdown
     attributes:
-      label: As a …
-      description: Who are we listening to?
-# Options in this dropdown list should match the display list of User types above
+      value: |
+        A particular Feature may have some nuanced requirements or expectations based on the type of User, their role, etc.
+
+        Select any or all which apply to these particular facets of a Feature description, but keep in mind that there
+        is usually a difference that could be missed if we assume everyone will need or want the same things…
+
+  - type: checkboxes
+    attributes:
+      label: As a…
+      description: For whom are we making, be deliberate when choosing more than one.
       options:
-        - User Type A
-        - User Type B
-        - User Type C
-        - et al
-      default: 0
-    validations:
-      required: true
+        - label: "**User Type A** responsible for a cohort of one or more people"
+        - label: "**User Type B** is anyone considered to be a part of an organization"
+        - label: "**User Type C** responsible for managing project(s)"
+
   
   - type: markdown
     attributes:
-      value: "# Conversation"
+      value: "## Conversation"
 
   - type: textarea
     id: conversation
@@ -90,7 +80,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Confirmation"
+      value: "## Confirmation"
 
   - type: textarea
     id: confirmation
@@ -107,7 +97,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Intra-Overview and Implementation Repository Linked Issue(s)"
+      value: "## Issue Linking"
 
   - type: markdown
     attributes:
@@ -128,13 +118,14 @@ body:
         - spike-from: <-- a real User Story connected to a virtual spike User Story
 
         Merge-to and Split-to User Story issue(s) should be **Closed as Not Planned** in favor of the
-        consolidated or expanded User Story issue(s), as appropriate. Do not delete, mark as merge
-        or split and **Closed as Not Planned**.
+        consolidated or expanded User Story issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
 
   - type: textarea
     id: linking
     attributes:
-      label: Issues linked within the Initiative Overview Repository to this Theme issue
+      label: Linked Issues
       description: "Tag entries with epic: , task: , story: , merge-to: , split-from: , etc"
       placeholder: |
         - epic: issue link within overview
@@ -146,7 +137,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# References"
+      value: "## References"
         
   - type: textarea
     id: references
@@ -164,7 +155,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Notes"
+      value: "## Notes"
 
   - type: textarea
     id: notes
@@ -177,7 +168,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Wrap-Up"
+      value: "## Wrap-Up"
 
   - type: textarea
     id: wrapup
