@@ -29,6 +29,17 @@ The [Agile Manifesto](http://agilemanifesto.org/) is the fundamental description
 > - Responding to change over following a plan
 >  
 > That is, while there is value in the items on the right, we value the items on the left more.
+>
+> |                   |                 |                   |
+> |-------------------|-----------------|-------------------|
+> | Kent Beck         | Mike Beedle     | Arie van Bennekum |
+> | Alistair Cockburn | Ward Cunningham | Martin Fowler     |
+> | James Grenning    | Jim Highsmith   | Andrew Hunt       |
+> | Ron Jeffries      | Jon Kern        | Brian Marick      |
+> | Robert C. Martin  | Steve Mellor    | Ken Schwaber      |
+> | Jeff Sutherland   | Dave Thomas     |                   |
+>
+> © 2001, the above authors this declaration may be freely copied in any form, but only in its entirety through this notice.
 
 We can focus on a whole-team approach across Initiative and Initiative Focus Areas, rather than considering only the software parts. An Initiative may include zero software, but we may attempt to follow Agile methods in developing that Initiative nevertheless. Note that we are using the term **Initiative** for the over-arching plan for a solution to some challenge, and **Project** for a particular concrete implementation of some Initiative elements, typically found in a git repository for example.
 
