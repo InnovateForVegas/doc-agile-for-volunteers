@@ -61,9 +61,9 @@ body:
       label: How we know we achieved Working Feature
       description: A container holding a group of goals…
       placeholder: |
-        - [ ] A list of one or more measurable
-        - [ ] and demonstrably-achieved results
-        - [ ] Check off during Wrap-Up
+        - A list of one or more measurable
+        - and demonstrably-achieved results
+        - Check off during Wrap-Up
     validations:
       required: true
 
@@ -99,9 +99,9 @@ body:
       label: Issues linked within the Initiative Overview Repository from and to this Feature issue
       description: "Tag entries with eg epic: , story: , merge-to: , split-from: , etc"
       placeholder: |
-        - [ ] epic: issue link within overview
-        - [ ] merge-to: this issue merges into a new issue
-        - [ ] split-from: this issue is one refactor from a parent Theme issue
+        - epic: issue link within overview
+        - merge-to: this issue merges into a new issue
+        - split-from: this issue is one refactor from a parent Theme issue
 
     validations:
       required: false

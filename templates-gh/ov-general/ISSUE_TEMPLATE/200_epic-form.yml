@@ -63,9 +63,9 @@ body:
       label: Key Results measuring Objective outcome…
       description: A list of Key Results indicating success
       placeholder: |
-        - [ ] A list of one or more measurable
-        - [ ] and demonstrably-achieved results
-        - [ ] Check off during Wrap-Up
+        - A list of one or more measurable
+        - and demonstrably-achieved results
+        - Check off during Wrap-Up
     validations:
       required: true
 
@@ -101,9 +101,9 @@ body:
       label: Issues linked within the Initiative Overview Repository from or to this Eoic issue
       description: "Tag entries with theme: , epic: , merge-to:, split-from:, etc"
       placeholder: |
-        - [ ] theme: issue link within overview
-        - [ ] merge-to: this issue merges into a new issue
-        - [ ] split-from: this issue is one refactor from a parent Epic issue
+        - theme: issue link within overview
+        - merge-to: this issue merges into a new issue
+        - split-from: this issue is one refactor from a parent Epic issue
 
     validations:
       required: false
