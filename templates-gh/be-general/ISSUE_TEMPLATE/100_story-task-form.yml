@@ -121,7 +121,7 @@ body:
     id: goals
     attributes:
       label: Goals
-      description: At least, the Confirmation items from associated User Story
+      description: At least, Confirmation items from associated User Story
       placeholder: |
         - [ ] Confirmation item 1 from User Story
         - [ ] Confirmation item 2 from User Story
