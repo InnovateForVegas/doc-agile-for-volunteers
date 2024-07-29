@@ -64,9 +64,9 @@ body:
       label: Issues linked within the Initiative Overview Repository to this Theme issue
       description: "Tag entries with story: , merge-to: , split-from: , etc"
       placeholder: |
-        - [ ] story: issue link within overview
-        - [ ] merge-to: this issue merges into a new issue
-        - [ ] split-from: this issue is one refactor from a parent Theme issue
+        - story: issue link within overview
+        - merge-to: this issue merges into a new issue
+        - split-from: this issue is one refactor from a parent Theme issue
 
     validations:
       required: false
