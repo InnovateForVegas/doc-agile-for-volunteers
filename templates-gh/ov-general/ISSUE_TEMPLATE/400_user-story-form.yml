@@ -60,9 +60,9 @@ body:
       label: As a…
       description: For whom are we making, be deliberate when choosing more than one.
       options:
-        - label: "**User Type A** responsible for a cohort of one or more people"
-        - label: "**User Type B** is anyone considered to be a part of an organization"
-        - label: "**User Type C** responsible for managing project(s)"
+        - label: "**User Type A** description"
+        - label: "**User Type B** description"
+        - label: "**User Type C** description"
 
   
   - type: markdown
@@ -142,7 +142,7 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: Links to external specs, documents, RFCs, accepted standards, examples, etc
+      label: References
       description: Place useful information close for implementors to find…
       placeholder: |
         - Links to resources to aid in implementation of this User Story
@@ -160,8 +160,8 @@ body:
   - type: textarea
     id: notes
     attributes:
-      label: Non-story knowledge and insight
-      description: Optional meta detail
+      label: Notes
+      description: Non-story knowledge and insight
       placeholder: Useful information for planning and implementation, etc.
     validations:
       required: false
@@ -173,7 +173,7 @@ body:
   - type: textarea
     id: wrapup
     attributes:
-      label: Post-Story comments, observations, notes
+      label: Wrap-up
       description: To aid in iterative process improvement and learning
       placeholder: |
         Anything that may contribute to other User Stories and other Initiative effort.

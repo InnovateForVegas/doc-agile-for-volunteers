@@ -101,7 +101,7 @@ body:
   - type: checkboxes
     id: reporteropts
     attributes:
-      label: Reporter Contact and Attribution
+      label: Reporter Attribution
       description: Select and update all that apply
       options:
         - label: Contact Information Available 
@@ -113,7 +113,7 @@ body:
   - type: input
     id: reportercontact
     attributes:
-      label: Reporter Contact and Attribution
+      label: Reporter Contact
       description: "Name, Email, etc as needed for opt-in follow-up and contribution attribution"
       placeholder: "Example: John Doe<jdoe@example.com>"
     validations:
@@ -160,7 +160,7 @@ body:
   - type: textarea
     id: wrapup
     attributes:
-      label: Post-Bug-Triage comments, observations, notes
+      label: Wrap-up
       description: To aid in iterative process improvement and learning
       placeholder: |
         Anything that may contribute to handling of other External Bug reports.
