@@ -155,6 +155,28 @@ body:
 
   - type: markdown
     attributes:
+      value: |
+        ## Issue Graph
+
+        A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
+
+        As issues are linked or removed, the visualization can be updated via automation.
+
+  - type: textarea
+    attributes:
+      id: issuegraph
+      label: Issue Graph
+      description: Do not edit, will update via automation
+      value: |
+        classDiagram
+          direction TB
+          class Ext Bug {
+            Coming : Soon
+          }
+      render: mermaid
+
+  - type: markdown
+    attributes:
       value: "## Wrap-Up"
 
   - type: textarea
