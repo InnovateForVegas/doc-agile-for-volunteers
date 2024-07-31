@@ -145,8 +145,8 @@ body:
         As issues are linked or removed, the visualization can be updated via automation.
 
   - type: textarea
+    id: issuegraph
     attributes:
-      id: issuegraph
       label: Issue Graph
       description: Do not edit, will update via automation
       value: |
