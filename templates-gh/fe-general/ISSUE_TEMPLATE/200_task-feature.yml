@@ -18,7 +18,8 @@
 title: "[Feature Task]: Edit title after colon"
 labels: 
   - task
-  - waiting
+  - feature
+  - triage
 projects:
   - Case-Sensitive-Org/0
 assignees:
