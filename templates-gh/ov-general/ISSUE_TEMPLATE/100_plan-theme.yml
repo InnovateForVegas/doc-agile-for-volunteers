@@ -159,7 +159,7 @@ body:
         of this issue, this overall Initiative, or other Initiatives into the future!
 
   - type: textarea
-    id: wrapup
+    id: summary
     attributes:
       label: Rolling Summary
       description: Pull discussion conclusions and update over time…
