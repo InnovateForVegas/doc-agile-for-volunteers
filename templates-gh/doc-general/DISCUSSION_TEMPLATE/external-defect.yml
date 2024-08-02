@@ -17,7 +17,8 @@
 
 title: "[External Defect]: Edit title after colon"
 labels:
-  - extbug
+  - external
+  - defect
   - triage
 body:
   - type: markdown

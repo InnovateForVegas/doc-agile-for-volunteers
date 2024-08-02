@@ -18,7 +18,8 @@
 title: "[Epic Task]: Edit title after colon"
 labels: 
   - task
-  - waiting
+  - epic
+  - triage
 projects:
   - Case-Sensitive-Org/0
 assignees:
