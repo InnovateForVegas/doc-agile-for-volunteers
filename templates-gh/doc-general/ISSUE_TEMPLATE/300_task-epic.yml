@@ -45,6 +45,29 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Short Description"
+  
+  - type: markdown
+    attributes:
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound on the Title of this Epic Task item
+      placeholder: Useful information visible in summary views
+
+    validations:
+      required: true
+
+
+  - type: markdown
+    attributes:
       value: "## Linked Issues"
 
   - type: markdown
