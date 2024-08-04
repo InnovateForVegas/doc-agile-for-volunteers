@@ -19,6 +19,7 @@ title: "[External Defect]: Edit title after colon"
 labels:
   - extern
   - defect
+  - cp-doc
   - triage
 body:
   - type: markdown
@@ -76,7 +77,7 @@ body:
 
   - type: checkboxes
     attributes:
-      label: I am a …
+      label: User Type (I am a …)
       description: Use context in which this bug was encountered
       options:
         - label: "**User Type A** description"

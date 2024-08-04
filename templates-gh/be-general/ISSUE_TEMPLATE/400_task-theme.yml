@@ -19,6 +19,7 @@ title: "[Theme Task]: Edit title after colon"
 labels: 
   - task
   - theme
+  - cp-be
   - triage
 projects:
   - Case-Sensitive-Org/0

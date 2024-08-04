@@ -18,6 +18,7 @@
 title: "[Repository]: Edit title after colon"
 labels:
   - repo
+  - cp-fe
   - triage
 body:
   - type: markdown

@@ -19,6 +19,7 @@ title: "[Theme Request]: Edit title after colon"
 labels:
   - theme
   - req
+  - cp-ov
   - triage
 body:
   - type: markdown

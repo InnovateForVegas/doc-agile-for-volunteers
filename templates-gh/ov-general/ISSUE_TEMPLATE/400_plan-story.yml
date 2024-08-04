@@ -21,6 +21,7 @@ title: "[User Story]: Edit title after colon"
 labels:
   - plan
   - story
+  - cp-ov
   - triage
 projects:
   - Case-Sensitive-Org/0
@@ -58,7 +59,7 @@ body:
 
   - type: checkboxes
     attributes:
-      label: As a…
+      label: User Type (As a …)
       description: For whom are we making, be deliberate when choosing more than one.
       options:
         - label: "**User Type A** description"
@@ -73,7 +74,7 @@ body:
   - type: textarea
     id: conversation
     attributes:
-      label: … I want/need to …
+      label: Objective (… I want/need to …)
       description: What does the user hope to accomplish from their perspective?
       placeholder: Background, Context, and Detail, optionally in list form, the results of discussion and pondering…
     validations:
@@ -86,7 +87,7 @@ body:
   - type: textarea
     id: confirmation
     attributes:
-      label: … so that …
+      label: Key Results (… so that …)
       placeholder: |
         - A list
         - of confirmable items
