@@ -19,7 +19,7 @@ name: External Bug
 description: A problem report tracked here prior to triage and distillation
 title: "[External Bug]: Edit title after colon"
 labels:
-  - external
+  - extern
   - bug
   - triage
 projects:
