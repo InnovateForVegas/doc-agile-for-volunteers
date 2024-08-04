@@ -73,7 +73,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Long Description
+      label: Detailed Description
       description: Augments the issue title with an extended description
       placeholder: |
         Try to be as specific and detailed as possible so that the circumstances of this
