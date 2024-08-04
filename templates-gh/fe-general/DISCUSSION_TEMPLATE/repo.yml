@@ -32,20 +32,21 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Short Description"
+
+  - type: markdown
+    attributes:
       value: |
-        ## My Assertion or Question
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
 
-        Briefly describe the question, assertion, suggestion, or what have you concerning
-        the design of some aspect of this Component Project Implementation repository. 
-
-        Add more detail below.
+        Please be succinct, one paragraph.
         
   - type: textarea
     id: shortdesc
     attributes:
-      label: Short Description
-      description: Expound on the Title of this Repository item
-      placeholder: Prose, a list, technical, not-technical, anything about this Repository
+      label: Brief Description
+      description: Augments the issue title with an extended description
 
     validations:
       required: true
