@@ -36,20 +36,41 @@ body:
   
   - type: markdown
     attributes:
-      value: "## Objective"
-
-  - type: input
-    id: name
+      value: "## Short Description"
+  
+  - type: markdown
     attributes:
-      label: Name your Feature Idea
-      description: "Examples: Adjustable Columns and Rows, Sheet Reordering, Formula Drop-down, etc"
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound succinctly on the Title of this Feature Request
+      placeholder: Useful information visible in summary views
+
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## Objective"
+
+  - type: markdown
+    attributes:
+      value: |
+        Describe the objective(s) of your Feature Request, with details, examples found
+        elsewhere, use case scenarios, or anything else you may find valuable to begin
+        this discussion…
 
   - type: textarea
     id: objective
     attributes:
-      label: What should your Feature Idea do?
+      label: Objective
       description: "A general description of the Feature you have named above"
     validations:
       required: true
@@ -61,8 +82,8 @@ body:
   - type: textarea
     id: keyresults
     attributes:
-      label: At Least Three elements of your Feature Idea you would check
-      description: "How we know we are on the right track pursuing your Feature Idea"
+      label: Key Results
+      description: "At Least Three elements of your Feature Idea you would check"
       placeholder: |
         - A list of one or more measurable
         - and demonstrably-achieved results

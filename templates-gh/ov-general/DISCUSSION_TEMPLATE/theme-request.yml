@@ -34,20 +34,34 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Objective"
-
-  - type: input
-    id: name
+      value: "## Short Description"
+  
+  - type: markdown
     attributes:
-      label: Name your Theme Idea
-      description: "Examples: Spreadsheet, Calendar, AI ChatBot, Video Editor, etc"
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound succinctly on the Title of this Theme Request
+      placeholder: Useful information visible in summary views
+
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## Objective"
 
   - type: textarea
     id: objective
     attributes:
-      label: What should your Theme Idea do?
+      label: Objective
       description: "A general description of the Theme you have named above"
     validations:
       required: true
@@ -59,8 +73,8 @@ body:
   - type: textarea
     id: keyresults
     attributes:
-      label: At Least Three elements of your Theme Idea you would check
-      description: "How we know we are on the right track pursuing your Theme Idea"
+      label: Key Results
+      description: "At Least Three elements of your Theme Idea you would check"
       placeholder: |
         - A list of one or more measurable
         - and demonstrably-achieved results
