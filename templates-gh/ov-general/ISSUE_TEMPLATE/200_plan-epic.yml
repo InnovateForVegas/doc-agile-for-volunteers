@@ -21,6 +21,7 @@ title: "[Epic]: Edit title after colon"
 labels:
   - plan
   - epic
+  - cp-ov
   - triage
 projects:
   - Case-Sensitive-Org/0

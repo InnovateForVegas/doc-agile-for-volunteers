@@ -21,6 +21,7 @@ title: "[External Bug]: Edit title after colon"
 labels:
   - extern
   - bug
+  - cp-ov
   - triage
 projects:
   - Case-Sensitive-Org/0
@@ -69,13 +70,14 @@ body:
 
   - type: checkboxes
     attributes:
-      label: As a …
+      label: User Type (As a …)
       description: Who are we getting a report from? Check all which apply.
       options:
-        - label: "**Unknown** No user type given or determined"
+        - label: "**Unknown** user type, possibly not provided"
         - label: "**User Type A** description"
         - label: "**User Type B** description"
         - label: "**User Type C** description"
+        - label: "**Any or All** user types listed above"
 
 
   - type: markdown

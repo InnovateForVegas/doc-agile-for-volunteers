@@ -21,6 +21,7 @@ title: "[Feature]: Edit title after colon"
 labels:
   - plan
   - feature
+  - cp-ov
   - triage
 projects:
   - Case-Sensitive-Org/0
