@@ -18,7 +18,6 @@
 title: "[General Defect]: Edit title after colon"
 labels: 
   - defect
-  - bug
   - triage
 projects:
   - Case-Sensitive-Org/0

@@ -18,8 +18,7 @@
 title: "[Integration Defect]: Edit title after colon"
 labels: 
   - defect
-  - bug
-  - integration
+  - integ
   - triage
 projects:
   - Case-Sensitive-Org/0
