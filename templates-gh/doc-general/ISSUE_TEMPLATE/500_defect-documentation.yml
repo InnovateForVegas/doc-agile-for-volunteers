@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
 
-title: "[Back End Defect]: Edit title after colon"
+title: "[Documentation] Defect]: Edit title after colon"
 labels: 
   - defect
   - doc
@@ -36,6 +36,29 @@ body:
 
         Back End defects will likely involve calling parameters, errors handling inputs and/or
         outputs, unexpected behaviors, missing or less-than-useful status or error messages, etc.
+
+  - type: markdown
+    attributes:
+      value: "## Short Description"
+  
+  - type: markdown
+    attributes:
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound on the Title of this Documentation Defect item
+      placeholder: Useful information visible in summary views
+
+    validations:
+      required: true
+
 
   - type: markdown
     attributes:
