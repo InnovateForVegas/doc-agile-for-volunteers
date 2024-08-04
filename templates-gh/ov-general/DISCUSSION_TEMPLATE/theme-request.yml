@@ -49,7 +49,7 @@ body:
     attributes:
       label: Short Description
       description: Expound succinctly on the Title of this Theme Request
-      placeholder: Useful information visible in summary views
+      placeholder: Useful paragraph visible in summary views
 
     validations:
       required: true
