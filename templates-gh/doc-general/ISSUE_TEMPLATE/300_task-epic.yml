@@ -140,7 +140,7 @@ body:
     id: strategy
     attributes:
       label: Strategy
-      description: Leave this as-is after, note pivots and learnings in Wrap-up
+      description: Leave this as-is after, note pivots and learnings in Retrospective
       placeholder: |
         A brief, very rough summary of ideation before commencing work on an
         implementation task, should be informative for someone considering
@@ -187,14 +187,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Wrap-Up
+        ## Retrospective
 
         Post-Implementation comments, observations, notes
 
   - type: textarea
-    id: wrapup
+    id: retro
     attributes:
-      label: Wrap-up
+      label: Retrospective
       description: To aid in iterative process improvement and learning
       placeholder: |
         Anything that may contribute to other Tasks for Implementation and
