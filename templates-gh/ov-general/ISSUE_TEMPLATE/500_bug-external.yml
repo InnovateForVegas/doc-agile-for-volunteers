@@ -16,7 +16,7 @@
 # along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
 
 name: External Bug
-description: A problem report tracked here prior to triage and distillation
+description: Observed Flaw captured from external report
 title: "[External Bug]: Edit title after colon"
 labels:
   - extern
