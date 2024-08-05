@@ -19,7 +19,6 @@ title: "[Iteration]: Edit title after colon"
 labels:
   - plan
   - cp-ov
-  - triage
 body:
   - type: markdown
     attributes:
