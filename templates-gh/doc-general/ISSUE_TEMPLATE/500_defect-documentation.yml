@@ -15,6 +15,8 @@
 # You should have received a copy of the GNU General Public License
 # along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
 
+name: Documentation Defect
+description: Investigated Documentation Flaw report
 title: "[Documentation Defect]: Edit title after colon"
 labels: 
   - defect

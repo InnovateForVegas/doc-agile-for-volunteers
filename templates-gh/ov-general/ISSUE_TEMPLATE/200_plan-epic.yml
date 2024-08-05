@@ -15,8 +15,8 @@
 # You should have received a copy of the GNU General Public License
 # along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
 
-name: Epic
-description: Agile Epic for initiative design and planning, a top-level grouping of Features and User Stories
+name: Epic Plan
+description: Agile Epic for initiative design and planning, groups Features
 title: "[Epic]: Edit title after colon"
 labels:
   - plan
