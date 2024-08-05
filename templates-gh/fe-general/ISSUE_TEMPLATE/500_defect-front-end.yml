@@ -284,16 +284,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Wrap-Up
+        ## Retrospective
 
         This is a postmortem summary to capture considerations and learnings for
         review in the future or to add to discussion of future implementation tasks
         in this and other Component Projects and Initiatives.
 
   - type: textarea
-    id: wrapup
+    id: retro
     attributes:
-      label: Wrap-up
+      label: Retrospective
       description: To aid in iterative process improvement and learning
       placeholder: |
         Anything that may contribute to other User Stories and other project effort.

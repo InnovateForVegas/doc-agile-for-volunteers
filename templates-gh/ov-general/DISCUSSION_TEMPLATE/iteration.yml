@@ -74,7 +74,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Wrap-up"
+      value: "## Retrospective"
 
   - type: markdown
     attributes:
@@ -82,9 +82,9 @@ body:
         Postmortem comments, observations, considerations for next time.
 
   - type: textarea
-    id: wrapup
+    id: retro
     attributes:
-      label: Wrap-up
+      label: Retrospective
       description: "Any last words after the Iteration ends"
     validations:
       required: false
