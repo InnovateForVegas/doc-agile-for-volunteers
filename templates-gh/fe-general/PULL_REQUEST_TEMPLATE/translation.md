@@ -4,7 +4,7 @@ Check all that apply (X or x between square brackets)
 
 - [ ] I am a native or fluent speaker of the language translated *to*
 - [ ] I have performed this translation myself
-- [ ] This translation was performed using automated tools (please indicate method)
+- [ ] This translation was performed using automated tools (please indicate method below)
 - [ ] This submission complies with the statements found at <https://developercertificate.org/>
 - [ ] I have signed off on my commit(s)
 - [x] Example Checked item
