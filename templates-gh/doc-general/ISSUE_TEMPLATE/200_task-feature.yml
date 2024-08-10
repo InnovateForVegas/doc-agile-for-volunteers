@@ -70,19 +70,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - feature: --> Feature Issue located in a initiative overview repository
-        - merge-to: --> a Task that is a merging of this and other Tasks
-        - merge-from: <-- a Task that was merged into this Task
-        - split-to: --> a Task that is one of multiple Tasks derived from this Task
-        - split-from: <-- a Task that was split into this and other Tasks
-        - spike-to: --> a virtual Task for planning and estimation of related Tasks
-        - spike-from: <-- a real Task connected to a virtual spike Task
+        - :feature --> Feature Issue located in a initiative overview repository
+        - :merge-to --> a Task that is a merging of this and other Tasks
+        - :merge-from <-- a Task that was merged into this Task
+        - :split-to --> a Task that is one of multiple Tasks derived from this Task
+        - :split-from <-- a Task that was split into this and other Tasks
+        - :spike-to --> a virtual Task for planning and estimation of related Tasks
+        - :spike-from <-- a real Task connected to a virtual spike Task
 
         Merge-to and Split-to Task issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded User Story issue(s), as appropriate.
@@ -93,11 +91,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with feature: , merge-to: , split-from: , etc"
+      description: "Tag entries with :feature , :merge-to , :split-from , etc"
       placeholder: |
-        - feature: issue link within initiative overview
-        - merge-to: this issue merges into a new Story Task issue
-        - split-from: this issue is one refactor from a parent Story Task issue
+        - :feature issue link within initiative overview
+        - :merge-to this issue merges into a new Story Task issue
+        - :split-from this issue is one refactor from a parent Story Task issue
 
     validations:
       required: false

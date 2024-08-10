@@ -191,19 +191,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - task: --> Potentially-related Story or Feature Task (root cause, etc)
-        - merge-to: --> a Defect that is a merging of this and other Defects
-        - merge-from: <-- a Defect that was merged into this Defect
-        - split-to: --> a Defect that is one of multiple Tasks derived from this Defect
-        - split-from: <-- a Defect that was split into this and other Defects
-        - spike-to: --> a virtual Defect for planning and estimation of related Defects
-        - spike-from: <-- a real Defect connected to a virtual spike Defect
+        - :task --> Potentially-related Story or Feature Task (root cause, etc)
+        - :merge-to --> a Defect that is a merging of this and other Defects
+        - :merge-from <-- a Defect that was merged into this Defect
+        - :split-to --> a Defect that is one of multiple Tasks derived from this Defect
+        - :split-from <-- a Defect that was split into this and other Defects
+        - :spike-to --> a virtual Defect for planning and estimation of related Defects
+        - :spike-from <-- a real Defect connected to a virtual spike Defect
 
         Merge-to and Split-to Defect issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded Defect issue(s), as appropriate.
@@ -214,11 +212,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with task: , merge-to: , split-from: , etc"
+      description: "Tag entries with :task , :merge-to , :split-from , etc"
       placeholder: |
-        - task: issue link within component project repo
-        - merge-to: this issue merges into a new Defect issue
-        - split-from: this issue is one refactor from a parent Defect issue
+        - :task issue link within component project repo
+        - :merge-to this issue merges into a new Defect issue
+        - :split-from this issue is one refactor from a parent Defect issue
 
     validations:
       required: false

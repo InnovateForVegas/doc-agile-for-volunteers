@@ -78,20 +78,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - theme: --> the parent Theme in this Agile hierarchy for this Epic
-        - feature: --> a child Feature in this Agile hierarchy for this Epic
-        - merge-to: --> an Epic that is a merging of this and other Epic(s)
-        - merge-from: <-- an Epic that was merged into this Epic
-        - split-to: --> an Epic that is one of multiple Epics derived from this Epic
-        - split-from: <-- an Epic that was split into this and other Epics
-        - spike-to: --> a virtual Epic for planning and estimation of related Epics
-        - spike-from: <-- a real Epic connected to a virtual spike Epic
+        - :theme --> the parent Theme in this Agile hierarchy for this Epic
+        - :feature --> a child Feature in this Agile hierarchy for this Epic
+        - :merge-to --> an Epic that is a merging of this and other Epic(s)
+        - :merge-from <-- an Epic that was merged into this Epic
+        - :split-to --> an Epic that is one of multiple Epics derived from this Epic
+        - :split-from <-- an Epic that was split into this and other Epics
+        - :spike-to --> a virtual Epic for planning and estimation of related Epics
+        - :spike-from <-- a real Epic connected to a virtual spike Epic
 
         Merge-to and Split-to Epic issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded Epic issue(s), as appropriate.
@@ -102,11 +100,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with theme: , epic: , merge-to:, split-from:, etc"
+      description: "Tag entries with :theme , :epic , :merge-to, :split-from , etc"
       placeholder: |
-        - theme: issue link within overview
-        - merge-to: this issue merges into a new issue
-        - split-from: this issue is one refactor from a parent Epic issue
+        - :theme issue link within overview
+        - :merge-to this issue merges into a new issue
+        - :split-from this issue is one refactor from a parent Epic issue
 
     validations:
       required: false

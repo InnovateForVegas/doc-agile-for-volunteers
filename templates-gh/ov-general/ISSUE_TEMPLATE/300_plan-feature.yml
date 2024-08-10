@@ -76,20 +76,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - epic: --> a parent Epic in this Agile hierarchy for this Feature
-        - story: --> a child User Story in this Agile Hierarchy for this Feature
-        - merge-to: --> a Feature that is a merging of this and other Feature(s)
-        - merge-from: <-- a Feature that was merged into this Feature
-        - split-to: --> a Feature that is one of multiple Features derived from this Feature
-        - split-from: <-- a Feature that was split into this and other Features
-        - spike-to: --> a virtual Feature for planning and estimation of related Features
-        - spike-from: <-- a real Theme connected to a virtual spike Theme
+        - :epic --> a parent Epic in this Agile hierarchy for this Feature
+        - :story --> a child User Story in this Agile Hierarchy for this Feature
+        - :merge-to --> a Feature that is a merging of this and other Feature(s)
+        - :merge-from <-- a Feature that was merged into this Feature
+        - :split-to --> a Feature that is one of multiple Features derived from this Feature
+        - :split-from <-- a Feature that was split into this and other Features
+        - :spike-to --> a virtual Feature for planning and estimation of related Features
+        - :spike-from <-- a real Theme connected to a virtual spike Theme
 
         Merge-to and Split-to Feature issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded Feature issue(s), as appropriate.
@@ -100,11 +98,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with eg epic: , story: , merge-to: , split-from: , etc"
+      description: "Tag entries with eg :epic , :story , :merge-to , :split-from , etc"
       placeholder: |
-        - epic: issue link within overview
-        - merge-to: this issue merges into a new issue
-        - split-from: this issue is one refactor from a parent Theme issue
+        - :epic issue link within overview
+        - :merge-to this issue merges into a new issue
+        - :split-from this issue is one refactor from a parent Theme issue
 
     validations:
       required: false

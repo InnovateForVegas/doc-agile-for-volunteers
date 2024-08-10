@@ -104,20 +104,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - feature: --> the parent Feature in this Agile hierarchy for this User Story
-        - task: --> Implementation Task located in a separate repository
-        - merge-to: --> a User Story that is a merging of this and other User Stories
-        - merge-from: <-- a User Story that was merged into this User Story
-        - split-to: --> a User Story that is one of multiple User Stories derived from this User Stories
-        - split-from: <-- a User Story that was split into this and other User Stories
-        - spike-to: --> a virtual User Story for planning and estimation of related User Stories
-        - spike-from: <-- a real User Story connected to a virtual spike User Story
+        - :feature --> the parent Feature in this Agile hierarchy for this User Story
+        - :task --> Implementation Task located in a separate repository
+        - :merge-to --> a User Story that is a merging of this and other User Stories
+        - :merge-from <-- a User Story that was merged into this User Story
+        - :split-to --> a User Story that is one of multiple User Stories derived from this User Stories
+        - :split-from <-- a User Story that was split into this and other User Stories
+        - :spike-to --> a virtual User Story for planning and estimation of related User Stories
+        - :spike-from <-- a real User Story connected to a virtual spike User Story
 
         Merge-to and Split-to User Story issue(s) should be **Closed as Not Planned** in favor of the
         consolidated or expanded User Story issue(s), as appropriate.
@@ -128,11 +126,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with epic: , task: , story: , merge-to: , split-from: , etc"
+      description: "Tag entries with :epic , :task , :story , :merge-to , :split-from , etc"
       placeholder: |
-        - epic: issue link within overview
-        - merge-to: this issue merges into a new issue
-        - split-from: this issue is one refactor from a parent Theme issue
+        - :epic issue link within overview
+        - :merge-to this issue merges into a new issue
+        - :split-from this issue is one refactor from a parent Theme issue
 
     validations:
       required: false

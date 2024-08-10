@@ -178,15 +178,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issues should be linked by url (see info for issue linking bottom of page) to indicate
-        graph relationship between them, with tags in a task list indicating the link relationship.
-        Identifying relationships between issues within the initiative hierarchy should
-        be easier than without this information.
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
 
         Tags and Linked Issues
-        - defect: --> a Defect Issue in a Component Project repo derived from this External Bug Report
-        - feature: --> an Initiative Feature Issue derived from this External Bug report
-        - story: --> an Initiative Story Issue derived from this External Bug Report
+        - :defect --> a Defect Issue in a Component Project repo derived from this External Bug Report
+        - :feature --> an Initiative Feature Issue derived from this External Bug report
+        - :story --> an Initiative Story Issue derived from this External Bug Report
 
         External Bug issue(s) should be **Closed as Not Planned** after they are triaged and used to
         link to existing and/or create new Initiative Feature or User Story issue(s) and/or Defect Issue(s)
@@ -196,11 +194,11 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with defect: , feature: , or story: "
+      description: "Tag entries with :defect , :feature , or :story "
       placeholder: |
-        - defect: issue link to a related component project repo
-        - feature: issue link to a new or related initiative feature
-        - story: issue link to a new or related initiative user story
+        - :defect issue link to a related component project repo
+        - :feature issue link to a new or related initiative feature
+        - :story issue link to a new or related initiative user story
 
     validations:
       required: false
