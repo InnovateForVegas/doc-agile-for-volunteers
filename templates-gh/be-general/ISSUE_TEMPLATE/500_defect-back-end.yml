@@ -74,7 +74,7 @@ body:
 
         If you have more detail for these, please include it down below.
 
-  - type: markdown
+  - type: checkboxes
     attributes:
       label: Observations
       description: Types of problems or failures observed
@@ -90,7 +90,7 @@ body:
         - label: "Privacy failure"
 
 
-  - type: markdown
+  - type: checkboxes
     attributes:
       label: Frequency
       description: Reproducing the observations
