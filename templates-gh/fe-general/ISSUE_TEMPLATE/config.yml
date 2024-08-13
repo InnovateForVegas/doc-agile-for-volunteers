@@ -17,9 +17,18 @@
 
 blank_issues_enabled: false
 contact_links:
-  - name: "Discussion: Front End Implementation Request"
-    url: https://github.com/path-to-front-end-component-project-request-category
+  - name: "Discussion: Front End Implementation Design"
+    url: https://github.com/ORG-OR-USER/FE-PROJECT-NAME/discussions/categories/design
     about: GitHub Discussion for pondering Front End Implementation tuning and ideas
-  - name: EXTERNAL example
+  - name: "Discussion: External Defect"
+    url: https://github.com/ORG-OR-USER/FE-PROJECT-NAME/discussions/categories/external-defect
+    about: GitHub Discussion of externally-discovered defects with project team
+  - name: "Discussion: Repo"
+    url: https://github.com/ORG-OR-USER/FE-PROJECT-NAME/discussions/categories/repo
+    about: GitHub Discussion about this component project repository
+  - name: "Discussion: Agile for Volunteers Iteration"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/iteration
+    about: GitHub Discussion about a current Initiative Iteration
+  - name: "EXTERNAL example"
     url: https://example.com
     about: Visit here for general discussion, future notions, etc

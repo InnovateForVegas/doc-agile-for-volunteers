@@ -17,12 +17,21 @@
 
 blank_issues_enabled: false
 contact_links:
+  - name: "Discussion: Agile for Volunteers Iteration"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/iteration
+    about: GitHub Discussion about a current Initiative Iteration
   - name: "Discussion: Initiative Feature Request"
-    url: https://github.com/path-to-initiatiative-feature-request-category
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/feature-request
     about: GitHub Discussion for pondering new Initiative Features
   - name: "Discussion: Initiative Theme Request"
-    url: https://github.com/path-to-initiative-theme-request-category
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/theme-request
     about: GitHub Discussion for pondering broad Initiative Themes
+  - name: "Discussion: Repo"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/repo
+    about: GitHub Discussion about this component project repository 
+  - name: "Discussion: External Bug"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/external-bug
+    about: GitHub Discussion about a bug reported to or gathered from external sources 
   - name: EXTERNAL example
     url: https://example.com
     about: Visit here for general discussion, future notions, etc
