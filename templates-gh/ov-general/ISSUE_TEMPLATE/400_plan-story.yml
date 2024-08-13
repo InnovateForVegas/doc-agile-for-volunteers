@@ -14,10 +14,10 @@
 # 
 # You should have received a copy of the GNU General Public License
 # along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
-
-name: User Story Plan
+---
+name: Story Plan
 description: Agile User story for initiative design and planning
-title: "[User Story]: Edit title after colon"
+title: "[Story]: Edit title after colon"
 labels:
   - plan
   - story
