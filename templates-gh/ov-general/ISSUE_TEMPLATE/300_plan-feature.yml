@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Agile Feature
+      value: "# Agile Feature"
 
+  - type: markdown
+    attributes:
+      value: |
         A **Feature** is a generalized behavior, experience, or expectation from a component of the Initiative.
         
         One or more User Stories will describe variations, subtleties, and specific considerations of a Feature,
@@ -109,9 +111,10 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Issue Graph"
+  - type: markdown
+    attributes:
       value: |
-        ## Issue Graph
-
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -171,6 +174,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

@@ -24,9 +24,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Agile Theme Request
+      value: "# Agile Theme Request"
 
+  - type: markdown
+    attributes:
+      value: |
         Our Agile Theme describes a broad, fairly general top-level application, service, etc.
 
         If the Initiative is an Office Suite, a *Theme* might be a Spreadsheet component, described

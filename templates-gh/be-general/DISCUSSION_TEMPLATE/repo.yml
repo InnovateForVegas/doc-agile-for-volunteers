@@ -23,9 +23,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Repository Questions, Concerns, Improvements
+      value: "# Repository Questions, Concerns, Improvements"
 
+  - type: markdown
+    attributes:
+      value: |
         Any observations or suggestions to make this Component Project Repository
         function better, display information more clearly, be more easily discovered
         and inspected, etc.
@@ -64,9 +66,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Detail and References
+      value: "## Detail and References"
 
+  - type: markdown
+    attributes:
+      value: |
         This is where you add in a lengthy, more-detailed description of the concerns,
         suggestions, ideas, whatever you have in mind. Diagrams, illustrations, or any
         other supporting materials can be attached or linked as appropriate.

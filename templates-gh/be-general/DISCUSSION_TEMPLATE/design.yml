@@ -23,9 +23,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Design Discussion
+      value: "# Design Discussion"
 
+  - type: markdown
+    attributes:
+      value: |
         Consider the overall Issue Hierarchy for the purposes of a discussion around
         a particular design choice for this Component Project Implementation.
 
@@ -67,9 +69,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Detail and References
+      value: "## Detail and References"
 
+  - type: markdown
+    attributes:
+      value: |
         This is where you add in a lengthy, more-detailed description of the concerns,
         suggestions, ideas, whatever you have in mind. Diagrams, illustrations, or any
         other supporting materials can be attached or linked as appropriate.

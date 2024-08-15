@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
+      value: "# Agile User Story and the 3 Cs"
+
+  - type: markdown
+    attributes:
       value: |
-        # Agile User Story and the 3 Cs
-        
         1. Select a User Card (imagine index cards, one color per user type).
         2. Describe in Conversation what this User would like to accomplish, with context, addressing concerns such as What and Why.
         3. Describe in simple list form (not checkboxes) Confirmation that we met those expectations as Acceptance Criteria.
@@ -43,7 +45,6 @@ body:
         Multiple tasks in multiple repositories may implement a User Story or Stories.
 
         **Please compose Conversation and Confirmation elements in the first person, as though you are the selected User.**
-
       
   - type: markdown
     attributes:
@@ -137,9 +138,10 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Issue Graph"
+  - type: markdown
+    attributes:
       value: |
-        ## Issue Graph
-
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -212,6 +214,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

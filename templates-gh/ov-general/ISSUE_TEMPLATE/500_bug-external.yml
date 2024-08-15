@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        # External Bug
+      value: "# External Bug"
 
+  - type: markdown
+    attributes:
+      value: |
         An external User or Customer may encounter a problem using or testing
         some element(s) of the Initiative in whatever form they have had access
         to it. We presume that a Bug Report may be filed externally and in fact
@@ -48,7 +50,6 @@ body:
         status of their reported findings as they are addressed, and there is a case
         to be made for inclusion of filers of such reports as contributors to
         all or part of the Initiative (at their opt-in of course).
-
 
   - type: markdown
     attributes:
@@ -205,9 +206,10 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Issue Graph"
+  - type: markdown
+    attributes:
       value: |
-        ## Issue Graph
-
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -242,7 +244,10 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
 

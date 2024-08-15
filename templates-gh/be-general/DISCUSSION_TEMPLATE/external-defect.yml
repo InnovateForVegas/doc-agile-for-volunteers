@@ -24,9 +24,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # External Defect
+      value: "# External Defect"
 
+  - type: markdown
+    attributes:
+      value: |
         Please use this Discussion Category to describe an issue, problem, or defect
         you have encountered developing or interacting with this Component Project.
 

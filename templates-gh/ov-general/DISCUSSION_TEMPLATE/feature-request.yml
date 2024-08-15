@@ -24,9 +24,11 @@ labels:
 body:
   - type: markdown
     attributes:
+      value: "# Agile Feature Request"
+  
+  - type: markdown
+    attributes:
       value: |
-        # Agile Feature Request
-
         Our Agile Feature describes a reasonably specific operation, action, input, output, user
         interface interaction, or general user (or automation) experience associated with an
         Initiative Theme.

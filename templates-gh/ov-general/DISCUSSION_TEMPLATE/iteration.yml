@@ -22,9 +22,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Agile Iteration Discussion
+      value: "# Agile Iteration Discussion"
 
+  - type: markdown
+    attributes:
+      value: |
         A new Iteration Discussion item will be added for a new Iteration for this Initiative.
 
   - type: markdown

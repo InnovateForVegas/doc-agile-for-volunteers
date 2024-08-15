@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Documentation Feature Implementation
+      value: "# Documentation Feature Implementation"
 
+  - type: markdown
+    attributes:
+      value: |
         Plan an implementation strategy for a selected Feature Issue linked below,
         so that an observer might examine plan, effort, and outcome as part of collaboration
         discovery process.
@@ -102,9 +104,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Issue Graph
+      value: "## Issue Graph"
 
+  - type: markdown
+    attributes:
+      value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -124,9 +128,11 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Strategy"
+
+  - type: markdown
+    attributes:
       value: |
-        ## Strategy
-        
         Brief description of how and where to jump in on Implementation
 
   - type: textarea
@@ -155,12 +161,13 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: "## Goals"
 
   - type: markdown
     attributes:
       value: |
-        ## Goals
-        
         Itemized checklist of items to complete and measure
 
   - type: textarea
@@ -176,12 +183,13 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "## Retrospective"
 
   - type: markdown
     attributes:
       value: |
-        ## Retrospective
-
         Post-Implementation comments, observations, notes
 
   - type: textarea
@@ -200,6 +208,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

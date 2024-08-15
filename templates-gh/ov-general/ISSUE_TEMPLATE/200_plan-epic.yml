@@ -30,14 +30,16 @@ assignees:
 body:
   - type: markdown
     attributes:
+      value: "# Agile Epic"
+
+  - type: markdown
+    attributes:
       value: |
-        # Agile Epic
-        
         An Epic is a collection of related Features which combine to form a
         level of functionality within an Initiative **Theme**.
         
         One or more Epics will form the basis of one or more Agile Iterations. It is likely that any
-        Epic(s) will span more than a single Iteration, but this may vary. 
+        Epic(s) will span more than a single Iteration, but this may vary.
 
         We can describe an Epic directly as an **Objective** and **Key Results** (OKRs), with more granular
         descriptions in each related **Feature**.
@@ -111,9 +113,10 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Issue Graph"
+  - type: markdown
+    attributes:
       value: |
-        ## Issue Graph
-
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -173,6 +176,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

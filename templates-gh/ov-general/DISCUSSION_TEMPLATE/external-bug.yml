@@ -24,9 +24,11 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        # External Bug
+      value: "# External Bug"
 
+  - type: markdown
+    attributes:
+      value: |
         Please use this Discussion Category to describe an issue, problem, or defect
         you have encountered using one or more components of this Initiative.
 

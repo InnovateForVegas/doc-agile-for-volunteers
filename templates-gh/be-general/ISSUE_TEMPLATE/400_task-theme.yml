@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        # Back End Theme Implementation
+      value: "# Back End Theme Implementation"
 
+  - type: markdown
+    attributes:
+      value: |
         From time to time, the larger scope of an Initiative Epic may need some focus
         as an Epic Task for any Component Project. This will usually entail something
         globally applicable to the Objective or to any or all of the Key Results of the
@@ -107,9 +109,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Issue Graph
+      value: "## Issue Graph"
 
+  - type: markdown
+    attributes:
+      value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -129,9 +133,11 @@ body:
 
   - type: markdown
     attributes:
+      value: "## Strategy"
+
+  - type: markdown
+    attributes:
       value: |
-        ## Strategy
-        
         Brief description of how and where to jump in on Implementation
 
   - type: textarea
@@ -160,12 +166,13 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: "## Goals"
 
   - type: markdown
     attributes:
       value: |
-        ## Goals
-        
         Itemized checklist of items to complete and measure
 
   - type: textarea
@@ -181,12 +188,13 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "## Retrospective"
 
   - type: markdown
     attributes:
       value: |
-        ## Retrospective
-
         Post-Implementation comments, observations, notes
 
   - type: textarea
@@ -204,6 +212,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

@@ -30,9 +30,11 @@ assignees:
 body:
   - type: markdown
     attributes:
+      value: "# Documentation Implementation Integration Defect"
+
+  - type: markdown
+    attributes:
       value: |
-        # Documentation Implementation Integration Defect
-        
         You should be somewhat familiar with the Component Project against which this issue is
         to be filed, as well as related Component Projects where the interactions are problematic.
 
@@ -226,9 +228,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Issue Graph
+      value: "## Issue Graph"
 
+  - type: markdown
+    attributes:
+      value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
 
         As issues are linked or removed, the visualization can be updated via automation.
@@ -248,9 +252,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## References
+      value: "## References"
 
+  - type: markdown
+    attributes:
+      value: |
         Links to external specs, documents, RFCs, accepted standards, examples, etc
         
   - type: textarea
@@ -269,9 +275,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Notes
+      value: "## Notes"
 
+  - type: markdown
+    attributes:
+      value: |
         Non-defect/implementation knowledge and insight
 
   - type: textarea
@@ -285,9 +293,11 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## Retrospective
+      value: "## Retrospective"
 
+  - type: markdown
+    attributes:
+      value: |
         This is a postmortem summary to capture considerations and learnings for
         review in the future or to add to discussion of future implementation tasks
         in this and other Component Projects and Initiatives.
@@ -305,6 +315,9 @@ body:
 
   - type: markdown
     attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    attributes: 
       value: |
-        ## Helpful Issue-filing Links
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
