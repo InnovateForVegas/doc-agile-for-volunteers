@@ -23,10 +23,12 @@ labels:
   - triage
 body:
   - type: markdown
+    id: discussion_head_title
     attributes:
       value: "# Agile Feature Request"
   
   - type: markdown
+    id: discussion_head_description
     attributes:
       value: |
         Our Agile Feature describes a reasonably specific operation, action, input, output, user
@@ -37,10 +39,12 @@ body:
         *Feature* might be autofill formulae or adjustable column and row sizes, etc.
   
   - type: markdown
+    id: discussion_shortdesc_title
     attributes:
       value: "## Short Description"
   
   - type: markdown
+    id: discussion_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -59,10 +63,12 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_objective_title
     attributes:
       value: "## Objective"
 
   - type: markdown
+    id: discussion_objective_description
     attributes:
       value: |
         Describe the objective(s) of your Feature Request, with details, examples found
@@ -78,6 +84,7 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_keyresults_title
     attributes:
       value: "## Key Results"
 

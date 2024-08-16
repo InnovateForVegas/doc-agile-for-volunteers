@@ -21,19 +21,23 @@ labels:
   - cp-ov
 body:
   - type: markdown
+    id: discussion_head_title
     attributes:
       value: "# Agile Iteration Discussion"
 
   - type: markdown
+    id: discussion_head_description
     attributes:
       value: |
         A new Iteration Discussion item will be added for a new Iteration for this Initiative.
 
   - type: markdown
+    id: discussion_daterange_title
     attributes:
       value: "## Date Range"
 
   - type: markdown
+    id: discussion_daterange_description
     attributes:
       value: |
         The Start and End Dates of this Iteration, will be visible in summary views in the GitHub
@@ -58,10 +62,12 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_notes_title
     attributes:
       value: "## Notes"
 
   - type: markdown
+    id: discussion_notes_description
     attributes:
       value: |
         Anything to state up front as the iteration begins
@@ -75,10 +81,12 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_retro_title
     attributes:
       value: "## Retrospective"
 
   - type: markdown
+    id: discussion_retro_description
     attributes:
       value: |
         Postmortem comments, observations, considerations for next time.

@@ -29,10 +29,12 @@ assignees:
   - OneOrMoreGitHubUsers
 body:
   - type: markdown
+    id: task_head_title
     attributes:
       value: "# Documentation Epic Implementation"
 
   - type: markdown
+    id: task_head_description
     attributes:
       value: |
         From time to time, the larger scope of an Initiative Epic may need some focus
@@ -48,10 +50,12 @@ body:
         and available time can be reasonably planned and apportioned.
 
   - type: markdown
+    id: task_shortdesc_title
     attributes:
       value: "## Short Description"
   
   - type: markdown
+    id: task_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -71,10 +75,12 @@ body:
 
 
   - type: markdown
+    id: task_linking_title
     attributes:
       value: "## Linked Issues"
 
   - type: markdown
+    id: task_linking_description
     attributes:
       value: |
         Link issues by url (see info for issue linking bottom of page) to indicate
@@ -108,10 +114,12 @@ body:
       required: false
 
   - type: markdown
+    id: task_issuegraph_title
     attributes:
       value: "## Issue Graph"
 
   - type: markdown
+    id: task_issuegraph_description
     attributes:
       value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
@@ -132,10 +140,12 @@ body:
       render: mermaid
 
   - type: markdown
+    id: task_strategy_title
     attributes:
       value: "## Strategy"
 
   - type: markdown
+    id: task_strategy_description
     attributes:
       value: |
         Brief description of how and where to jump in on Implementation
@@ -167,10 +177,12 @@ body:
       required: false
 
   - type: markdown
+    id: task_goals_title
     attributes:
       value: "## Goals"
 
   - type: markdown
+    id: task_goals_description
     attributes:
       value: |
         Itemized checklist of items to complete and measure
@@ -189,10 +201,12 @@ body:
       required: true
 
   - type: markdown
+    id: task_retro_title
     attributes:
       value: "## Retrospective"
 
   - type: markdown
+    id: task_retro_description
     attributes:
       value: |
         Post-Implementation comments, observations, notes
@@ -211,10 +225,12 @@ body:
       required: false
 
   - type: markdown
+    id: task_helpful_title
     attributes: 
       value: "## Helpful Issue-filing Links"
 
   - type: markdown
+    id: task_helpful_description
     attributes: 
       value: |
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

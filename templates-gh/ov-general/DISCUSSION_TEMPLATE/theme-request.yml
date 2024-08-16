@@ -23,10 +23,12 @@ labels:
   - triage
 body:
   - type: markdown
+    id: discussion_head_title
     attributes:
       value: "# Agile Theme Request"
 
   - type: markdown
+    id: discussion_head_description
     attributes:
       value: |
         Our Agile Theme describes a broad, fairly general top-level application, service, etc.
@@ -35,10 +37,12 @@ body:
         in general terms without becoming overly concerned with finer details, which come later.
 
   - type: markdown
+    id: discussion_shortdesc_title
     attributes:
       value: "## Short Description"
   
   - type: markdown
+    id: discussion_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -57,6 +61,7 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_objective_title
     attributes:
       value: "## Objective"
 
@@ -69,6 +74,7 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_keyresults_title
     attributes:
       value: "## Key Results"
 

@@ -29,10 +29,12 @@ assignees:
   - OneOrMoreGitHubUsers
 body:
   - type: markdown
+    id: plan_head_title
     attributes:
       value: "# Agile Epic"
 
   - type: markdown
+    id: plan_head_description
     attributes:
       value: |
         An Epic is a collection of related Features which combine to form a
@@ -45,6 +47,7 @@ body:
         descriptions in each related **Feature**.
 
   - type: markdown
+    id: plan_objective_title
     attributes:
       value: "## Epic Objective"
         
@@ -58,6 +61,7 @@ body:
       required: true
 
   - type: markdown
+    id: plan_keyresults_title
     attributes:
       value: "## Key Results"
         
@@ -74,10 +78,12 @@ body:
       required: true
 
   - type: markdown
+    id: plan_linking_title
     attributes:
       value: "## Issue Linking"
 
   - type: markdown
+    id: plan_linking_description
     attributes:
       value: |
         Link issues by url (see info for issue linking bottom of page) to indicate
@@ -112,9 +118,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_issuegraph_title
     attributes:
       value: "## Issue Graph"
+
   - type: markdown
+    id: plan_issuegraph_description
     attributes:
       value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
@@ -135,6 +144,7 @@ body:
       render: mermaid
 
   - type: markdown
+    id: plan_references_title
     attributes:
       value: "## References"
         
@@ -153,10 +163,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_summary_title
     attributes:
       value: "## Rolling Summary"
 
   - type: markdown
+    id: plan_summary_description
     attributes:
       value: |
         Capture discussion ongoing on this issue and other learnings for continuous improvement
@@ -175,10 +187,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_helpful_title
     attributes: 
       value: "## Helpful Issue-filing Links"
 
   - type: markdown
+    id: plan_helpful_description
     attributes: 
       value: |
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

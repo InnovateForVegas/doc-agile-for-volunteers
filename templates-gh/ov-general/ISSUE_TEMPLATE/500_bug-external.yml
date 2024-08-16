@@ -29,10 +29,12 @@ assignees:
   - OneOrMoreGitHubUsers
 body:
   - type: markdown
+    id: bug_head_title
     attributes:
       value: "# External Bug"
 
   - type: markdown
+    id: bug_head_description
     attributes:
       value: |
         An external User or Customer may encounter a problem using or testing
@@ -52,10 +54,12 @@ body:
         all or part of the Initiative (at their opt-in of course).
 
   - type: markdown
+    id: bug_shortdesc_title
     attributes:
       value: "## Short Description"
   
   - type: markdown
+    id: bug_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -74,10 +78,12 @@ body:
       required: true
 
   - type: markdown
+    id: bug_characterization_title
     attributes:
       value: "## Characterization" 
 
   - type: markdown
+    id: bug_characterization_description
     attributes:
       value: |
 
@@ -88,6 +94,7 @@ body:
         If you have more detail for these, please include it down below.
 
   - type: checkboxes
+    id: observations
     attributes:
       label: Observations
       description: Types of problems or failures observed
@@ -104,6 +111,7 @@ body:
 
 
   - type: checkboxes
+    id: frequency
     attributes:
       label: Frequency
       description: Reproducing the observations
@@ -115,10 +123,12 @@ body:
         - label: "Seems to depend on external factors"
 
   - type: markdown
+    id: bug_usertype_title
     attributes:
       value: "## Submitter/Reporter as User Type"
 
   - type: checkboxes
+    id: usertype
     attributes:
       label: User Type (As a …)
       description: Who are we getting a report from? Check all which apply.
@@ -131,6 +141,7 @@ body:
 
 
   - type: markdown
+    id: bug_description_title
     attributes:
       value: "## Full Description (Report Body)"
 
@@ -148,6 +159,7 @@ body:
       required: true
 
   - type: markdown
+    id: bug_reporter_title
     attributes:
       value: "## Bug Reporter Contact and Attribution"
 
@@ -173,10 +185,12 @@ body:
       required: false
 
   - type: markdown
+    id: bug_linking_title
     attributes:
       value: "## Issue Linking"
 
   - type: markdown
+    id: bug_linking_description
     attributes:
       value: |
         Link issues by url (see info for issue linking bottom of page) to indicate
@@ -205,9 +219,12 @@ body:
       required: false
 
   - type: markdown
+    id: bug_issuegraph_title
     attributes:
       value: "## Issue Graph"
+
   - type: markdown
+    id: bug_issuegraph_description
     attributes:
       value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
@@ -228,6 +245,7 @@ body:
       render: mermaid
 
   - type: markdown
+    id: bug_retro_title
     attributes:
       value: "## Retrospective"
 
@@ -243,10 +261,12 @@ body:
       required: false
 
   - type: markdown
+    id: bug_helpful_title
     attributes: 
       value: "## Helpful Issue-filing Links"
 
   - type: markdown
+    id: bug_helpful_description
     attributes: 
       value: |
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

@@ -22,10 +22,12 @@ labels:
   - triage
 body:
   - type: markdown
+    id: discussion_head_title
     attributes:
       value: "# Repository Questions, Concerns, Improvements"
 
   - type: markdown
+    id: discussion_head_description
     attributes:
       value: |
         Any observations or suggestions to make this Component Project Repository
@@ -33,10 +35,12 @@ body:
         and inspected, etc.
 
   - type: markdown
+    id: discussion_shortdesc_title
     attributes:
       value: "## Short Description"
 
   - type: markdown
+    id: discussion_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -54,6 +58,7 @@ body:
       required: true
 
   - type: checkboxes
+    id: motivation
     attributes:
       label: Motivation
       description: Why I created this discussion.
@@ -65,10 +70,12 @@ body:
         - label: Something else…
 
   - type: markdown
+    id: discussion_detailref_title
     attributes:
       value: "## Detail and References"
 
   - type: markdown
+    id: discussion_detailref_description
     attributes:
       value: |
         This is where you add in a lengthy, more-detailed description of the concerns,

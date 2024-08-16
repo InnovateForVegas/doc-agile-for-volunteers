@@ -23,10 +23,12 @@ labels:
   - triage
 body:
   - type: markdown
+    id: discussion_head_title
     attributes:
       value: "# External Defect"
 
   - type: markdown
+    id: discussion_head_description
     attributes:
       value: |
         Please use this Discussion Category to describe an issue, problem, or defect
@@ -46,10 +48,12 @@ body:
         unless you would rather opt out.
 
   - type: markdown
+    id: discussion_shortdesc_title
     attributes:
       value: "## Short Description"
 
   - type: markdown
+    id: discussion_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -67,10 +71,12 @@ body:
       required: true
 
   - type: markdown
+    id: discussion_characterization_title
     attributes:
       value: "## Characterization" 
 
   - type: markdown
+    id: discussion_characterization_description
     attributes:
       value: |
 
@@ -89,6 +95,7 @@ body:
         (This is based on a true story from a large chip company in Oregon) 
 
   - type: checkboxes
+    id: context
     attributes:
       label: Documentation Specific
       description: Use context in which this bug was encountered
@@ -101,6 +108,7 @@ body:
 
 
   - type: markdown
+    id: observations
     attributes:
       label: Observations
       description: Types of problems or failures observed
@@ -117,6 +125,7 @@ body:
 
 
   - type: markdown
+    id: frequency
     attributes:
       label: Frequency
       description: Reproducing the observations
@@ -128,10 +137,12 @@ body:
         - label: "Seems to depend on external factors"
 
   - type: markdown
+    id: discussion_usertype_title
     attributes:
       value: "## Me as User"
 
   - type: checkboxes
+    id: usertype
     attributes:
       label: User Type (I am a …)
       description: Use context in which this bug was encountered
@@ -144,6 +155,7 @@ body:
 
 
   - type: markdown
+    id: discussion_description_title
     attributes:
       value: "## Full Description"
 

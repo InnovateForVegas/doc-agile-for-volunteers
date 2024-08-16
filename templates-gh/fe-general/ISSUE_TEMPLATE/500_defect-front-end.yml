@@ -28,10 +28,12 @@ assignees:
   - OneOrMoreGitHubUsers
 body:
   - type: markdown
+    id: defect_head_title
     attributes:
       value: "# Front End Implementation Defect"
 
   - type: markdown
+    id: defect_head_description
     attributes:
       value: |
         You should be somewhat familiar with the Component Project against which this issue is
@@ -41,10 +43,12 @@ body:
         outputs, unexpected behaviors, missing or less-than-useful status or error messages, etc.
 
   - type: markdown
+    id: defect_shortdesc_title
     attributes:
       value: "## Short Description"
   
   - type: markdown
+    id: defect_shortdesc_description
     attributes:
       value: |
         The text entered here will be visible via mouse over in GitHub issue summary views
@@ -63,10 +67,12 @@ body:
       required: true
 
   - type: markdown
+    id: defect_characterization_title
     attributes:
       value: "## Characterization" 
 
   - type: markdown
+    id: defect_characterization_description
     attributes:
       value: |
 
@@ -77,6 +83,7 @@ body:
         If you have more detail for these, please include it down below.
 
   - type: checkboxes
+    id: observations
     attributes:
       label: Observations
       description: Types of problems or failures observed
@@ -93,6 +100,7 @@ body:
 
 
   - type: checkboxes
+    id: frequency
     attributes:
       label: Frequency
       description: Reproducing the observations
@@ -104,10 +112,12 @@ body:
         - label: "Seems to depend on external factors"
 
   - type: markdown
+    id: defect_usertype_title
     attributes:
       value: "## User Type"
 
   - type: checkboxes
+    id: usertype
     attributes:
       label: User Type (As a …)
       description: Who is encountering this Back End issue.
@@ -119,6 +129,7 @@ body:
         - label: "**Any or All** user types listed above"
   
   - type: markdown
+    id: defect_findings_title
     attributes:
       value: "## Findings"
 
@@ -186,10 +197,12 @@ body:
       required: true
 
   - type: markdown
+    id: defect_linking_title
     attributes:
       value: "## Linked Issues"
 
   - type: markdown
+    id: defect_linking_description
     attributes:
       value: |
         Link issues by url (see info for issue linking bottom of page) to indicate
@@ -223,10 +236,12 @@ body:
       required: false
 
   - type: markdown
+    id: defect_issuegraph_title
     attributes:
       value: "## Issue Graph"
 
   - type: markdown
+    id: defect_issuegraph_description
     attributes:
       value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
@@ -247,10 +262,12 @@ body:
       render: mermaid
 
   - type: markdown
+    id: defect_references_title
     attributes:
       value: "## References"
 
   - type: markdown
+    id: defect_references_description
     attributes:
       value: |
         Links to external specs, documents, RFCs, accepted standards, examples, etc
@@ -270,10 +287,12 @@ body:
       required: false
 
   - type: markdown
+    id: defect_notes_title
     attributes:
       value: "## Notes"
 
   - type: markdown
+    id: defect_notes_description
     attributes:
       value: |
         Non-defect/implementation knowledge and insight
@@ -288,10 +307,12 @@ body:
       required: false
 
   - type: markdown
+    id: defect_retro_title
     attributes:
       value: "## Retrospective"
 
   - type: markdown
+    id: defect_retro_description
     attributes:
       value: |
         This is a postmortem summary to capture considerations and learnings for
@@ -310,10 +331,12 @@ body:
       required: false
 
   - type: markdown
+    id: defect_helpful_title
     attributes: 
       value: "## Helpful Issue-filing Links"
 
   - type: markdown
+    id: defect_helpful_description
     attributes: 
       value: |
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

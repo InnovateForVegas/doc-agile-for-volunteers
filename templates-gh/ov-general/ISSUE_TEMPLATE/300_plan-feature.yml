@@ -29,10 +29,12 @@ assignees:
   - OneOrMoreGitHubUsers
 body:
   - type: markdown
+    id: plan_head_title
     attributes:
       value: "# Agile Feature"
 
   - type: markdown
+    id: plan_head_description
     attributes:
       value: |
         A **Feature** is a generalized behavior, experience, or expectation from a component of the Initiative.
@@ -43,6 +45,7 @@ body:
         We can describe a Feature directly as an **Objective** with measurable **Key Results** (OKRs).
 
   - type: markdown
+    id: plan_objective_title
     attributes:
       value: "## Feature Objective"
         
@@ -56,6 +59,7 @@ body:
       required: true
 
   - type: markdown
+    id: plan_keyresults_title
     attributes:
       value: "## Key Results"
         
@@ -72,10 +76,12 @@ body:
       required: true
 
   - type: markdown
+    id: plan_linking_title
     attributes:
       value: "## Issue Linking"
 
   - type: markdown
+    id: plan_linking_description
     attributes:
       value: |
         Link issues by url (see info for issue linking bottom of page) to indicate
@@ -110,9 +116,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_issuegraph_title
     attributes:
       value: "## Issue Graph"
+  
   - type: markdown
+    id: plan_issuegraph_description
     attributes:
       value: |
         A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
@@ -133,6 +142,7 @@ body:
       render: mermaid
 
   - type: markdown
+    id: plan_references_title
     attributes:
       value: "## References"
         
@@ -151,10 +161,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_summary_title
     attributes:
       value: "## Rolling Summary"
 
   - type: markdown
+    id: plan_summary_description
     attributes:
       value: |
         Capture discussion ongoing on this issue and other learnings for continuous improvement
@@ -173,10 +185,12 @@ body:
       required: false
 
   - type: markdown
+    id: plan_helpful_title
     attributes: 
       value: "## Helpful Issue-filing Links"
 
   - type: markdown
+    id: plan_helpful_description
     attributes: 
       value: |
         - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
