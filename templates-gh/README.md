@@ -30,3 +30,32 @@ Obviously templates can change as needed per component project repository. It ma
 ## Collaborative Development
 
 These templates for GitHub were iterated upon in their initial form as part of the [Project-ACT Tessellation Initiative](https://github.com/Project-ACT/ov-tessellation).
+
+## GitHub Labels
+
+GitHub Labels are used throughout the issue and discussion form template structure with defaults according to component project repository type, issue type, and so on. A consistent label name, description, and color scheme through all Initiative Component Projects is advisable.
+
+The GitHub command line tool, gh, is one convenient way to configure labels for each component project repository.
+
+Please visit [gh homepage](https://gli.github.com/) to obtain and install the GitHub command line tool, and visit the manual page for [gh for labels](https://cli.github.com/manual/gh_label) for details.
+
+You may find the yq tool. found via [yq repository](https://github.com/mikefarah/yq), to be generally useful for some automated handling of YAML files. It is based heavily on the jq tool, which is useful for automated handling of JSON files.
+
+An example using the command line tool to configure all labels used in the templates in this structure follows. Note that label mutations are not, as of this writing, enabled for token authenticated access, you may need to authenticate your use of gh using a browser-based login, see [gh auth](https://cli.github.com/manual/auth) for more information:
+
+```sh
+yq '.use.[] | "gh create -f \"\(.name)\" --description \"\(.description)\" --color \(.color)"' labels.yml
+```
+
+The output of this yq command may be saved to a file and executed by your shell or executed as part of some other process.
+
+The labels below are a part of a default label set on creating a GitHub repository and will not be used for Agile for Volunteers repositories. You may remove them, or use them for your own purposes. The gh cli took may be used to remove them, or they can be removed manually, or left as is.
+
+```sh
+gh label delete documentation --yes
+gh label delete enhancement --yes
+gh label delete question --yes
+```
+
+Color selections are arbitrary for groups but similar within groups (Plan items, Task items, etc), however it may be useful,
+convenient, more intuitive to use a consistent color scheme across all Initiatives within an organization or cohort.
