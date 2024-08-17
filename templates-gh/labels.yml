@@ -1,0 +1,208 @@
+# Copyright (C) 2024 Innovate for Vegas Foundation
+# 
+# This file is part of doc-agile-for-volunteers.
+# 
+# doc-agile-for-volunteers is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-agile-for-volunteers is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
+---
+# Delete
+remove:
+  - name: documentation
+  - name: enhancement
+  - name: question
+
+# Create or Edit
+use:
+# Initiative
+  - name: plan
+    description: "Agile Planning Item"
+    color: 0x2277DD
+  - name: theme
+    description: "Agile Theme"
+    color: 0x1D76DB
+  - name: epic
+    description: "Agile Epic"
+    color: 0x79ADEC
+  - name: feature
+    description: "Agile Feature"
+    color: 0xA5C8F3
+  - name: story
+    description: "Agile User Story"
+    color: 0xD2E4F9
+
+# Bugs and Defects
+  - name: extern
+    description: "Externally-sourced"
+    color: 0x42EEA0
+  - name: intern
+    description: "Internally-sourced"
+    color: 0xA0EE42
+
+  - name: bug
+    description: "Observed flaw report"
+    color: 0xCD4A19
+  - name: defect
+    description: "Investigated flaw report"
+    color: 0xCD4A19
+
+  - name: wont-fix
+    description: "Defect or Bug not to be fixed"
+    color: 0xFFFFFF
+  - name: defer
+    description: "Table for later in the timeline"
+    color: 0xFF0000
+  - name: verify
+    description: "Check that a defect is fixed"
+    color: 0xFFFF00
+
+  - name: p0
+    description: "Priority 0 All Hands on Deck"
+    color: 0xDD3246
+  - name: p1
+    description: "Priority 1 Urgent"
+    color: 0xBB2032
+  - name: p2
+    description: "Priority 2 Important"
+    color: 0x8F1A27
+  - name: p3
+    description: "Priority 3 When Possible"
+    color: 0x63121C
+  - name: p4
+    description: "Priority 4 Informational"
+    color: 0x380B10
+
+  - name: s0
+    description: "Severity 0 Catastrophic"
+    color: 0xF7C345
+  - name: s1
+    description: "Severity 1 Highest"
+    color: 0xF3B215
+  - name: s2
+    description: "Severity 2 High"
+    color: 0xCA920B
+  - name: s3
+    description: "Severity 3 Mid"
+    color: 0x996F09
+  - name: s4
+    description: "Severity 4 Low"
+    color: 0x694C07
+
+# Component Projects
+  - name: task
+    description: "Implementation of a Planning Item"
+    color: 0x008800
+  - name: wait
+    description: "Waiting to begin work"
+    color: 0xFEF2C0
+  - name: work
+    description: "Work in Progress Now"
+    color: 0x00FF00
+  - name: pause
+    description: "Paused in Progress"
+    color: 0xF3DD45
+
+  - name: cp-ov
+    description: "Component Project - Overview"
+    color: 0xCFDFDF
+  - name: cp-be
+    description: "Component Project - Back End"
+    color: 0xCFDFDF
+  - name: cp-fe
+    description: "Component Project - Front End"
+    color: 0xCFDFDF
+  - name: cp-doc
+    description: "Component Project - Documentation"
+    color: 0xCFDFDF
+  - name: cp-db
+    description: "Component Project - Database"
+    color: 0xCFDFDF
+  - name: cp-api
+    description: "Component Project - API Spec"
+    color: 0xCFDFDF
+  - name: cp-spi
+    description: "Component Project - SPI Spec"
+    color: 0xCFDFDF
+  - name: cp-app
+    description: "Component Project - Application"
+    color: 0xCFDFDF
+  - name: cp-ui
+    description: "Component Project - User Interface"
+    color: 0xCFDFDF
+  - name: cp-iac
+    description: "Component Project - Infrastructure as Code"
+    color: 0xCFDFDF
+  - name: cp-hw
+    description: "Component Project - Hardware"
+    color: 0xCFDFDF
+  - name: cp-mech 
+    description: "Component Project - Mechanical"
+    color: 0xCFDFDF
+  - name: cp-id
+    description: "Component Project - Industrial Design"
+    color: 0xCFDFDF
+  - name: cp-vis
+    description: "Component Project - Visual Assets"
+    color: 0xCFDFDF
+  - name: cp-aud
+    description: "Component Project - Audio Assets"
+    color: 0xCFDFDF
+
+  - name: cp-bom
+    description: "Component Project - Bill of Materials"
+    color: 0xCFDFDF
+  - name: cp-data
+    description: "Component Project - Data"
+    color: 0xCFDFDF
+  - name: cp-ext
+    description: "Component Project - External Track"
+    color: 0xCFDFDF
+  - name: cp-test
+    description: "Component Project - Test/QA/QC"
+    color: 0xCFDFDF
+  - name: cp-test
+    description: "Component Project - Co-Creation"
+    color: 0xCFDFDF
+
+  - name: integ
+    description: "Integration with other Components"
+    color: 0x112233
+  - name: design
+    description: "Implementation Decisions"
+    color: 0x556677
+  - name: req
+    description: "Request"
+    color: 0x223344
+  - name: repo
+    description: "Regarding this repository"
+    color: 0xFF88FF
+
+  - name: triage
+    description: "New Incoming or In Need of Examination"
+    color: 0xF5F554
+  - name: doc
+    description: "Improvements or additions to documentation"
+    color: 0x0075CA
+  - name: dup
+    description: "Duplicate item"
+    color: 0xCFD3D7
+  - name: invalid
+    description: "Not a valid issue or topic"
+    color: 0xFFFFFF
+
+# Discoverable
+  - name: "good first issue"
+    description: "For newcomers, appears in Contributing"
+    color: 0x7057FF
+  - name: "help wanted"
+    description: "Help Wanted, Inquire Within"
+    color: 0xCF396E
