@@ -49,12 +49,20 @@ yq '.use.[] | "gh create -f \"\(.name)\" --description \"\(.description)\" --col
 
 The output of this yq command may be saved to a file and executed by your shell or executed as part of some other process.
 
-The labels below are a part of a default label set on creating a GitHub repository and will not be used for Agile for Volunteers repositories. You may remove them, or use them for your own purposes. The gh cli took may be used to remove them, or they can be removed manually, or left as is.
+The labels below are a part of a default label set on creating a GitHub repository and will not be used for Agile for Volunteers repositories. You may remove them, or use them for your own purposes. The gh cli took may be used to remove them, or they can be removed manually using the GitHub web user interface, or left as is.
+
+Example using the gh cli tool
 
 ```sh
 gh label delete documentation --yes
 gh label delete enhancement --yes
 gh label delete question --yes
+```
+
+Or by generating the appropriate lines using yq
+
+```sh
+yq '.remove[] | "gh label delete \(.name) --yes" ' labels.yml
 ```
 
 Color selections are arbitrary for groups but similar within groups (Plan items, Task items, etc), however it may be useful,
