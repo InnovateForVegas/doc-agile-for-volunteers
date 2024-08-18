@@ -169,7 +169,7 @@ use:
   - name: cp-test
     description: "Component Project - Test/QA/QC"
     color: 0xCFDFDF
-  - name: cp-test
+  - name: cp-cc
     description: "Component Project - Co-Creation"
     color: 0xCFDFDF
 
