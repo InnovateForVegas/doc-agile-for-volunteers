@@ -45,30 +45,115 @@ If we are all speaking the same language, if we are all on the same page, we can
 These are the terms we will use in the context of Agile for Volunteers (taken most often from The Agile Manifesto and related works, or adapted for our non-software-development application here).
 
 <!-- TODO: Fill in this rough list and useful definitions and contextual examples -->
-Planning
-Implementation
 
-Initiative
-Theme
-Epic
-Feature
-User Story
-External Bug
-Task
-Defect
+- Planning
+- Implementation
 
-Stakeholder
-Customer
-Co-Creation
+- Initiative
+- Component
+- Theme
+- Epic
+- Feature
+- User Story
+- External Bug
+- Task
+- Defect
 
-Blue Sky
-Discussion
-Conversation
-Iteration
-Specification
+- Stakeholder
+- Customer
+- Co-Creation
 
-Abstract
-Concrete
+- Blue Sky
+- Discussion
+- Conversation
+- Iteration
+- Specification
+- Retrospective
 
-Visibility
-Observability
+- Abstract
+- Concrete
+
+- Visibility
+- Observability
+
+### Component Project Types
+
+cp-ov
+Component Project - Overview
+0xCFDFDF
+
+cp-be
+Component Project - Back End
+0xCFDFDF
+
+cp-fe
+Component Project - Front End
+0xCFDFDF
+
+cp-doc
+Component Project - Documentation
+0xCFDFDF
+
+cp-db
+Component Project - Database
+0xCFDFDF
+
+cp-api
+Component Project - API Spec
+0xCFDFDF
+
+cp-spi
+Component Project - SPI Spec
+0xCFDFDF
+
+cp-app
+Component Project - Application
+0xCFDFDF
+
+cp-ui
+Component Project - User Interface
+0xCFDFDF
+
+cp-iac
+Component Project - Infrastructure as Code
+0xCFDFDF
+
+cp-hw
+Component Project - Hardware
+0xCFDFDF
+
+cp-mech
+Component Project - Mechanical
+0xCFDFDF
+
+cp-id
+Component Project - Industrial Design
+0xCFDFDF
+
+cp-vis
+Component Project - Visual Assets
+0xCFDFDF
+
+cp-aud
+Component Project - Audio Assets
+0xCFDFDF
+
+cp-bom
+Component Project - Bill of Materials
+0xCFDFDF
+
+cp-data
+Component Project - Data
+0xCFDFDF
+
+cp-ext
+Component Project - External Track
+0xCFDFDF
+
+cp-test
+Component Project - Test/QA/QC
+0xCFDFDF
+
+cp-test
+Component Project - Co-Creation
+0xCFDFDF
