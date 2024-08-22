@@ -150,6 +150,9 @@ use:
   - name: cp-id
     description: "Component Project - Industrial Design"
     color: 0xCFDFDF
+  - name: cp-mm
+    description: "Component Project - Multi Media"
+    color: 0xCFDFDF
   - name: cp-vis
     description: "Component Project - Visual Assets"
     color: 0xCFDFDF
@@ -163,14 +166,20 @@ use:
   - name: cp-data
     description: "Component Project - Data"
     color: 0xCFDFDF
-  - name: cp-ext
-    description: "Component Project - External Track"
+  - name: cp-meta
+    description: "Component Project - External Meta"
     color: 0xCFDFDF
   - name: cp-test
     description: "Component Project - Test/QA/QC"
     color: 0xCFDFDF
   - name: cp-cc
     description: "Component Project - Co-Creation"
+    color: 0xCFDFDF
+  - name: cp-rel
+    description: "Component Project - Release"
+    color: 0xCFDFDF
+  - name: cp-dev
+    description: "Component Project - Development"
     color: 0xCFDFDF
 
   - name: integ
