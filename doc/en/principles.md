@@ -41,6 +41,12 @@ The whole-team approach found in Agile principles encourages collaboration acros
 - Pair and mob collaboration adds value to the Initiative, Projects, and Team
 - Cross-functional skills can be developed by pairing across the tech/non-tech “boundary”
 
+### Persistent Teams
+
+Members of Persistent Teams are presumed to be focused on Initiatives and/or Component Projects (one, many, all) for participating in Issue Triage, ongoing Planning interactions, Retrospectives and what comes from them, and other activities that would almost certainly be assigned to any member of an Agile development team in an employee scenario.
+
+Persistent Team members are added to a CPMgr_ GitHub team with appropriate resource access.
+
 ### Atomic Teams
 
 In order to adapt the Agile Iteration model to our Volunteer cohort structure, we will attempt to make Teams atomic for any individual Iteration without assumptions for the next Iteration.
@@ -50,3 +56,5 @@ During a particular Iteration, it may be possible to rely on the application of 
 To make the most of whole-team benefit, we say that the Team is Atomic during the Iteration to set expectations across the Team, that those beginning the iteration on the particular Atopic Team will end the Iteration on the same Team, having attempted to complete, or at least make progress on, the parts of the Initiative and/or Project(s) each claimed for work during the iteration. If, at the end of a given Iteration, there is no sign of effort or attempted effort, there may be a discussion which follows, with the Whole Team, concerning participation in future Iterations.
 
 Our Initiatives and Projects will follow a typical External Contributor workflow with the possibility of Pull Requests on the GitHub platform. This approach may be more appropriate if an individual contributor is unable to commit to the Atomic Team approach to Iteration planning.
+
+Atomic Team members are added to a CP_ GitHub team with appropriate resource access, and may be removed and re-added as needed through the life of a Component Project.
