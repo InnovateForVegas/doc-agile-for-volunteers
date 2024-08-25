@@ -209,7 +209,7 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with :defect , :feature , or :story "
+      description: "Tag issue URLs with :defect , :feature , or :story "
       placeholder: |
         - :defect issue link to a related component project repo
         - :feature issue link to a new or related initiative feature

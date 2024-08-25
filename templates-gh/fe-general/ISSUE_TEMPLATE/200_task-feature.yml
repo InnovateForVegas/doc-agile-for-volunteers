@@ -99,7 +99,7 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with :feature , :merge-to , :split-from , etc"
+      description: "Tag issue URLs with :feature , :merge-to , :split-from , etc"
       placeholder: |
         - :feature issue link within initiative overview
         - :merge-to this issue merges into a new Story Task issue

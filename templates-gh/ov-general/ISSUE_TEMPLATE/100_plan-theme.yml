@@ -105,7 +105,7 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with :epic , :merge-to , :split-from , etc"
+      description: "Tag issue URLs with :epic , :merge-to , :split-from , etc"
       placeholder: |
         - :epic issue link within overview
         - :merge-to this issue merges into a new issue

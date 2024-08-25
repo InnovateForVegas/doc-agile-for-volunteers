@@ -230,7 +230,7 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with :task , :integ , :merge-to , :split-from , etc"
+      description: "Tag issue URLs with :task , :integ , :merge-to , :split-from , etc"
       placeholder: |
         - :task: issue link within component project repo
         - :merge-to this issue merges into a new Defect issue

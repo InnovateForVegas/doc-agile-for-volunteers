@@ -104,7 +104,7 @@ body:
     id: linking
     attributes:
       label: Linked Issues
-      description: "Tag entries with :theme , :merge-to , :split-from , etc"
+      description: "Tag issue URLs with :theme , :merge-to , :split-from , etc"
       placeholder: |
         - :theme issue link within initiative overview
         - :merge-to this issue merges into a new Story Task issue
