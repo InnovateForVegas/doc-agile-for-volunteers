@@ -44,7 +44,7 @@ You may find the yq tool. found via [yq repository](https://github.com/mikefarah
 An example using the command line tool to configure all labels used in the templates in this structure follows. Note that label mutations are not, as of this writing, enabled for token authenticated access, you may need to authenticate your use of gh using a browser-based login, see [gh auth](https://cli.github.com/manual/auth) for more information:
 
 ```sh
-yq '.use.[] | "gh create -f \"\(.name)\" --description \"\(.description)\" --color \(.color)"' labels.yml
+yq '.use.[] | "gh label create -f \"\(.name)\" --description \"\(.description)\" --color \(.color)"' labels.yml
 ```
 
 The output of this yq command may be saved to a file and executed by your shell or executed as part of some other process.
