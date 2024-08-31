@@ -26,192 +26,192 @@ use:
 # Initiative
   - name: plan
     description: "Agile Planning Item"
-    color: 0x2277DD
+    color: "2277DD"
   - name: theme
     description: "Agile Theme"
-    color: 0x1D76DB
+    color: "1D76DB"
   - name: epic
     description: "Agile Epic"
-    color: 0x79ADEC
+    color: "79ADEC"
   - name: feature
     description: "Agile Feature"
-    color: 0xA5C8F3
+    color: "A5C8F3"
   - name: story
     description: "Agile User Story"
-    color: 0xD2E4F9
+    color: "D2E4F9"
 
 # Bugs and Defects
   - name: extern
     description: "Externally-sourced"
-    color: 0x42EEA0
+    color: "42EEA0"
   - name: intern
     description: "Internally-sourced"
-    color: 0xA0EE42
+    color: "A0EE42"
 
   - name: bug
     description: "Observed flaw report"
-    color: 0xCD4A19
+    color: "CD4A19"
   - name: defect
     description: "Investigated flaw report"
-    color: 0xCD4A19
+    color: "CD4A19"
 
   - name: wont-fix
     description: "Defect or Bug not to be fixed"
-    color: 0xFFFFFF
+    color: "FFFFFF"
   - name: defer
     description: "Table for later in the timeline"
-    color: 0xFF0000
+    color: "FF0000"
   - name: verify
     description: "Check that a defect is fixed"
-    color: 0xFFFF00
+    color: "FFFF00"
 
   - name: p0
     description: "Priority 0 All Hands on Deck"
-    color: 0xDD3246
+    color: "DD3246"
   - name: p1
     description: "Priority 1 Urgent"
-    color: 0xBB2032
+    color: "BB2032"
   - name: p2
     description: "Priority 2 Important"
-    color: 0x8F1A27
+    color: "8F1A27"
   - name: p3
     description: "Priority 3 When Possible"
-    color: 0x63121C
+    color: "63121C"
   - name: p4
     description: "Priority 4 Informational"
-    color: 0x380B10
+    color: "380B10"
 
   - name: s0
     description: "Severity 0 Catastrophic"
-    color: 0xF7C345
+    color: "F7C345"
   - name: s1
     description: "Severity 1 Highest"
-    color: 0xF3B215
+    color: "F3B215"
   - name: s2
     description: "Severity 2 High"
-    color: 0xCA920B
+    color: "CA920B"
   - name: s3
     description: "Severity 3 Mid"
-    color: 0x996F09
+    color: "996F09"
   - name: s4
     description: "Severity 4 Low"
-    color: 0x694C07
+    color: "694C07"
 
 # Component Projects
   - name: task
     description: "Implementation of a Planning Item"
-    color: 0x008800
+    color: "008800"
   - name: wait
     description: "Waiting to begin work"
-    color: 0xFEF2C0
+    color: "FEF2C0"
   - name: work
     description: "Work in Progress Now"
-    color: 0x00FF00
+    color: "00FF00"
   - name: pause
     description: "Paused in Progress"
-    color: 0xF3DD45
+    color: "F3DD45"
 
   - name: cp-ov
     description: "Component Project - Overview"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-be
     description: "Component Project - Back End"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-fe
     description: "Component Project - Front End"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-doc
     description: "Component Project - Documentation"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-db
     description: "Component Project - Database"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-api
     description: "Component Project - API Spec"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-spi
     description: "Component Project - SPI Spec"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-app
     description: "Component Project - Application"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-ui
     description: "Component Project - User Interface"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-iac
     description: "Component Project - Infrastructure as Code"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-hw
     description: "Component Project - Hardware"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-mech 
     description: "Component Project - Mechanical"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-id
     description: "Component Project - Industrial Design"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-mm
     description: "Component Project - Multi Media"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-vis
     description: "Component Project - Visual Assets"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-aud
     description: "Component Project - Audio Assets"
-    color: 0xCFDFDF
+    color: "CFDFDF"
 
   - name: cp-bom
     description: "Component Project - Bill of Materials"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-data
     description: "Component Project - Data"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-meta
     description: "Component Project - External Meta"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-test
     description: "Component Project - Test/QA/QC"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-cc
     description: "Component Project - Co-Creation"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-rel
     description: "Component Project - Release"
-    color: 0xCFDFDF
+    color: "CFDFDF"
   - name: cp-dev
     description: "Component Project - Development"
-    color: 0xCFDFDF
+    color: "CFDFDF"
 
   - name: integ
     description: "Integration with other Components"
-    color: 0x112233
+    color: "112233"
   - name: design
     description: "Implementation Decisions"
-    color: 0x556677
+    color: "556677"
   - name: req
     description: "Request"
-    color: 0x223344
+    color: "223344"
   - name: repo
     description: "Regarding this repository"
-    color: 0xFF88FF
+    color: "FF88FF"
 
   - name: triage
     description: "New Incoming or In Need of Examination"
-    color: 0xF5F554
+    color: "F5F554"
   - name: doc
     description: "Improvements or additions to documentation"
-    color: 0x0075CA
+    color: "0075CA"
   - name: dup
     description: "Duplicate item"
-    color: 0xCFD3D7
+    color: "CFD3D7"
   - name: invalid
     description: "Not a valid issue or topic"
-    color: 0xFFFFFF
+    color: "FFFFFF"
 
 # Discoverable
   - name: "good first issue"
     description: "For newcomers, appears in Contributing"
-    color: 0x7057FF
+    color: "7057FF"
   - name: "help wanted"
     description: "Help Wanted, Inquire Within"
-    color: 0xCF396E
+    color: "CF396E"
