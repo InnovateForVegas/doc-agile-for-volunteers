@@ -46,8 +46,6 @@ These below are useful in the context of a project making use of the Agile for V
 
 These are the terms we will use in the context of Agile for Volunteers (taken most often from The Agile Manifesto and related works, or adapted for our non-software-development application here). These terms are always subject to tuning for clarity, though their fundamental meanings should not evolve drastically.
 
-<!-- TODO: Fill in this rough list and useful definitions and contextual examples -->
-
 ### Planning
 
 In the Agile for Volunteers, Whole Team approach, *Planning* a project is a collaborative and ongoing discussion that will ideally bring about a deliverable or deliverables that work for the intended customer(s). The entire process is always intended to be adaptive so that better outcomes remain the goal(s).
