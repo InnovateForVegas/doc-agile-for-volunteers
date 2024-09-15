@@ -144,7 +144,7 @@ This is a term used ubiquitously in Agile methodologies, synonymous with *Sprint
 
 ### Specification
 
-A typical interpretation of a *Specification* is a set of requirements states as Rules for a particular Project (or Initiative), given to a Team to Implement. In keeping with Agile methodoligies, a Specification may be included as part of the Implementation of an Initiative where some external requirements are stated in this form (communications protocols, file formats, syntax requirements, and so on), while the Initiative itself is Planned not a a Specification, but as a set of Possibilities always subject to Whole Team reflection, iteration, and improvement.
+A typical interpretation of a *Specification* is a set of requirements states as Rules for a particular Project (or Initiative), given to a Team to Implement. In keeping with Agile methodologies, a Specification may be included as part of the Implementation of an Initiative where some external requirements are stated in this form (communications protocols, file formats, syntax requirements, and so on), while the Initiative itself is Planned not a a Specification, but as a set of Possibilities always subject to Whole Team reflection, iteration, and improvement.
 
 ### Retrospective
 
