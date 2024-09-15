@@ -111,6 +111,9 @@ use:
     description: "Paused in Progress"
     color: "F3DD45"
 
+  - name: cp-init
+    description: "Component Project - Initiative"
+    color: "CFDFDF"
   - name: cp-ov
     description: "Component Project - Overview"
     color: "CFDFDF"

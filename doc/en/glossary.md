@@ -166,6 +166,10 @@ Use of a naming convention for Component Projects as they manifest on a platform
 
 The Component Project repository name prefix is indicated in parentheses, eg (cp-ov) is (Component Project - OverView).
 
+### Initiative (cp-init)
+
+In the context of repositories and partitioning, the Initiative Component Project is the top of the hierarchy, the starting point for an outside observer, the canonical reference point, the place where a public-facing website and links to *Documentation* (cp-doc) components, Teams and Contributors, top-level descriptions of goals and desired outcomes, and so on. If any of the other Component Project repositories (or however they manifest) are private, the *Initiative* component should be Public to be discoverable and observable.
+
 ### Overview (cp-ov)
 
 The *Overview* contains *Planning* and *Blue Sky* and other information about an *Initiative*.
