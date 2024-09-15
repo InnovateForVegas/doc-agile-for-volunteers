@@ -30,3 +30,4 @@ The document collection is broken down along those component lines with the foll
 | [INVEST in Planning](invest.md)                  | The INVEST acronym for composition of effective Planning Issues           |
 | [SMART Tasks](smart.md)                          | The SMART acronym for composition of effective Implementation Task issues |
 | [Ubiquitous Language Glossary](glossary.md)      | Using a common lexicon helps with communication and understanding…        |
+| [Initial Agile for Volunteers](initial-afv.md)   | Our initial description of Agile for Volunteers as Infrastructure         |
