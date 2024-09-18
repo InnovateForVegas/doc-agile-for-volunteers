@@ -23,13 +23,13 @@ body:
   - type: markdown
     id: discussion_head_title
     attributes:
-      value: "# Agile Iteration Discussion"
+      value: "# Agile Planning Iteration Discussion"
 
   - type: markdown
     id: discussion_head_description
     attributes:
       value: |
-        A new Iteration Discussion item will be added for a new Iteration for this Initiative.
+        A new Iteration Discussion item will be added for this Initiative.
 
   - type: markdown
     id: discussion_daterange_title
