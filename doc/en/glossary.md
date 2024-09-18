@@ -62,15 +62,19 @@ This is a common Software Development term, but across any endeavor the notion o
 
 This is a common Software Development term, but across any endeavor the notion of *Concrete* construction, deployment, implementation, and so on is the commitment to a location, methodology, architecture, and so on. Once a component is made concrete, it is usually more difficult to change and may have implications across other component projects and the individuals endeavoring to complete those projects.
 
-### Whole Team
+### Team
+
+See the [Teams](teams.md) document for more detail.
+
+#### Whole Team
 
 This is a term used commonly in Agile and Agile-like methodologies, an indication that the team working on an initiative or any of its component projects, is made up of contributors to these, regardless of their title, area(s) of expertise or experience, or specific interest areas. All voices should be heard, all opinions considered, all ideas pondered. When possible. the *Whole Team* could, and should, include customers or intended users of an Initiative and its component project parts.
 
-### Persistent Team
+#### Persistent Team
 
 This is a term not typically encountered in Agile and Agile-like methodologies, used to denote those who are committed to an Initiative and/or Component Project(s) across Iterations, maintaining the parts, meeting from time to time and discussing plans and tasks and keeping the Initiative in what we could call “Good Shape.” Members of this team will typically have administrative access using the tools at hand, for example the ability to add and remove Atomic Team members for an iteration, re-assign or otherwise triage and manage bug and defect issues, and so on. Members of a Persistent Team are, by implication, Owners or Maintainers or similar, depending on the context of the tools in use and the Whole Team in general.
 
-### Atomic Team
+#### Atomic Team
 
 This is a term not typically encountered in Agile and Agile-like methodologies, used in the context of Civic Volunteerism where individual contributors may not be consistently or reliably available to participate in Initiative *Iterations*. Individuals may be added or removed from *Atomic Teams* through the life of an *Initiative*, which does not automatically impact their attribution nor the value of their contributions to the *Initiative* through its development lifecycle(s).
 
@@ -88,7 +92,7 @@ This is a more modern term indicating that the intended *Customer* or likely Use
 
 ### Initiative
 
-This is a term used sometimes in Agile methodologies, sometimes used synonymously with *Theme*. Here, we use *Initiative* to indicate the top of a *Component* hierarchy. An example Initiative might be to “Make a Toolbox.”
+This is a term used sometimes in Agile methodologies, sometimes used synonymously with *Theme*. Here, we use *Initiative* to indicate the top of a *Component* hierarchy planned as *Themes*. An example Initiative might be to “Make a Toolbox.”
 
 ### Theme
 
