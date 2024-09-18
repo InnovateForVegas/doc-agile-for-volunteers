@@ -92,3 +92,5 @@ In the case of a team of volunteers, even if that team is atomic for an iteratio
 We can encourage Atomic Teams to meet when they can, at some geographically convenient location at times that work for pairs or the whole Atomic Team, or online with chat or screen sharing or other forms of collaboration that enable interpersonal engagement along the way.
 
 This aspect of Agile Methodology, for our applications, will most likely prove to be the most challenging to get right, with the largest opportunity for return on investment against the highest barriers.
+
+Worthy of more, visit [Meetings](meetings.md)…
