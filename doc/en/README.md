@@ -26,6 +26,8 @@ The document collection is broken down along those component lines with the foll
 | [Motivation](why.md)                             | Motivating the development and use of Agile for Volunteers                |
 | [Principles](principles.md)                      | Application and Adaptation of Agile Principles for Volunteers             |
 | [Process](process.md)                            | An Agile Process and Workflow Suggestions for Volunteer Initiatives       |
+| [Teams](teams.md)                                | Some detail about Whole, Persistent, and Atomic Teams                     |
+| [Meetings](meetings.md)                          | Meetings, Minutes, and Outcomes in the Volunteer context                  |
 | [Issue Hierarchy](hierarchy.md)                  | Use of GitHub Issues to Plan and Implement Initiatives                    |
 | [INVEST in Planning](invest.md)                  | The INVEST acronym for composition of effective Planning Issues           |
 | [SMART Tasks](smart.md)                          | The SMART acronym for composition of effective Implementation Task issues |
