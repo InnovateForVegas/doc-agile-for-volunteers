@@ -1,0 +1,236 @@
+# Copyright (C) 2024 Innovate for Vegas Foundation
+# 
+# This file is part of doc-agile-for-volunteers.
+# 
+# doc-agile-for-volunteers is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-agile-for-volunteers is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
+---
+name: Theme Task
+description: Implementation detail for an Agile Theme
+title: "[Theme Task]: Edit title after colon"
+labels: 
+  - task
+  - theme
+  - cp-doc
+  - triage
+projects:
+  - InnovateForVegas/10
+assignees:
+  - DanHugoDanHugo
+body:
+  - type: markdown
+    id: task_head_title
+    attributes:
+      value: "# Documentation Theme Implementation"
+
+  - type: markdown
+    id: task_head_description
+    attributes:
+      value: |
+        From time to time, the larger scope of an Initiative Epic may need some focus
+        as an Epic Task for any Component Project. This will usually entail something
+        globally applicable to the Objective or to any or all of the Key Results of the
+        Theme.
+
+        Plan an implementation strategy for a selected Theme Issue linked below,
+        so that an observer might examine plan, effort, and outcome as part of collaboration
+        discovery process.
+
+        An implementation task may be split, merged, or spiked, so that implementation effort
+        and available time can be reasonably planned and apportioned.
+
+  - type: markdown
+    id: task_shortdesc_title
+    attributes:
+      value: "## Short Description"
+  
+  - type: markdown
+    id: task_shortdesc_description
+    attributes:
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound on the Title of this Theme Task item
+      placeholder: Useful information visible in summary views
+
+    validations:
+      required: true
+
+
+  - type: markdown
+    id: task_linking_title
+    attributes:
+      value: "## Linked Issues"
+
+  - type: markdown
+    id: task_linking_description
+    attributes:
+      value: |
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
+
+        Tags and Linked Issues
+        - :theme --> Theme Issue located in a initiative overview repository
+        - :merge-to --> a Task that is a merging of this and other Tasks
+        - :merge-from <-- a Task that was merged into this Task
+        - :split-to --> a Task that is one of multiple Tasks derived from this Task
+        - :split-from <-- a Task that was split into this and other Tasks
+        - :spike-to --> a virtual Task for planning and estimation of related Tasks
+        - :spike-from <-- a real Task connected to a virtual spike Task
+
+        Merge-to and Split-to Task issue(s) should be **Closed as Not Planned** in favor of the
+        consolidated or expanded User Story issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
+
+  - type: textarea
+    id: linking
+    attributes:
+      label: Linked Issues
+      description: "Tag issue URLs with :theme , :merge-to , :split-from , etc"
+      placeholder: |
+        - :theme issue link within initiative overview
+        - :merge-to this issue merges into a new Story Task issue
+        - :split-from this issue is one refactor from a parent Story Task issue
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: task_issuegraph_title
+    attributes:
+      value: "## Issue Graph"
+
+  - type: markdown
+    id: task_issuegraph_description
+    attributes:
+      value: |
+        A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
+
+        As issues are linked or removed, the visualization can be updated via automation.
+
+  - type: textarea
+    id: issuegraph
+    attributes:
+      label: Issue Graph
+      description: Do not edit, will update via automation
+      value: |
+        classDiagram
+          direction TB
+          class Theme Task {
+            Coming : Soon
+          }
+      render: mermaid
+
+  - type: markdown
+    id: task_strategy_title
+    attributes:
+      value: "## Strategy"
+
+  - type: markdown
+    id: task_strategy_description
+    attributes:
+      value: |
+        Brief description of how and where to jump in on Implementation
+
+  - type: textarea
+    id: strategy
+    attributes:
+      label: Strategy
+      description: Leave this as-is after, note pivots and learnings in Retrospective
+      placeholder: |
+        A brief, very rough summary of ideation before commencing work on an
+        implementation task, should be informative for someone considering
+        joining in.
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: target
+    attributes:
+      label: Target
+      description: Specific information about runtime presumptions
+      placeholder: |
+        - Intended for any or a particular Cloud
+        - Runtime OS, versions, limitations
+        - Specific considerations outside of typical norms…
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: task_goals_title
+    attributes:
+      value: "## Goals"
+
+  - type: markdown
+    id: task_goals_description
+    attributes:
+      value: |
+        Itemized checklist of items to complete and measure
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: At least, Key Result items from associated Theme
+      placeholder: |
+        - [ ] Key Result item 1 from Theme
+        - [ ] Key Result item 2 from Theme
+        - [ ] Etc…
+
+    validations:
+      required: true
+
+  - type: markdown
+    id: task_retro_title
+    attributes:
+      value: "## Retrospective"
+
+  - type: markdown
+    id: task_retro_description
+    attributes:
+      value: |
+        Post-Implementation comments, observations, notes
+
+  - type: textarea
+    id: retro
+    attributes:
+      label: Retrospective
+      description: To aid in iterative process improvement and learning
+      placeholder: |
+        Anything that may contribute to other Tasks for Implementation and
+        perhaps on other Initiative effort after this implementation task
+        is considered Completed.
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: task_helpful_title
+    attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    id: task_helpful_description
+    attributes: 
+      value: |
+        - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)

@@ -1,0 +1,352 @@
+# Copyright (C) 2024 Innovate for Vegas Foundation
+# 
+# This file is part of doc-agile-for-volunteers.
+# 
+# doc-agile-for-volunteers is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-agile-for-volunteers is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-agile-for-volunteers.  If not, see <https://www.gnu.org/licenses/>.
+---
+name: Integration Defect
+description: Investigated Integration Flaw report
+title: "[Integration Defect]: Edit title after colon"
+labels: 
+  - defect
+  - integ
+  - cp-doc
+  - triage
+projects:
+  - InnovateForVegas/10
+assignees:
+  - DanHugoDanHugo
+body:
+  - type: markdown
+    id: defect_head_title
+    attributes:
+      value: "# Documentation Implementation Integration Defect"
+
+  - type: markdown
+    id: defect_head_description
+    attributes:
+      value: |
+        You should be somewhat familiar with the Component Project against which this issue is
+        to be filed, as well as related Component Projects where the interactions are problematic.
+
+        Integration defects will have peer defects in other Component Project repositories, probably
+        within this Initiative, which will ideally be resolved in one or more repositories to
+        address the actual defect where it is caused and detected.
+
+  - type: markdown
+    id: defect_shortdesc_title
+    attributes:
+      value: "## Short Description"
+  
+  - type: markdown
+    id: defect_shortdesc_description
+    attributes:
+      value: |
+        The text entered here will be visible via mouse over in GitHub issue summary views
+        and may be extracted with automated tools for other uses.
+
+        Please be succinct, one paragraph.
+
+  - type: textarea
+    id: shortdesc
+    attributes:
+      label: Short Description
+      description: Expound on the Title of this Integration Defect item
+      placeholder: Useful information visible in summary views
+
+    validations:
+      required: true
+
+  - type: markdown
+    id: defect_characterization_title
+    attributes:
+      value: "## Characterization" 
+
+  - type: markdown
+    id: defect_characterization_description
+    attributes:
+      value: |
+
+        So that we can assess severity and priority scores, select at least one
+        of each item in the checkbox blocks below, for Observations and for
+        Frequency.
+
+        If you have more detail for these, please include it down below.
+
+  - type: checkboxes
+    id: observations
+    attributes:
+      label: Observations
+      description: Types of problems or failures observed
+      options:
+        - label: "Data Loss or Destructive Failure"
+        - label: "Crash or other self-contained Failure"
+        - label: "Unexpected behavior"
+        - label: "Explicitly incorrect behavior"
+        - label: "Does not meet expectations"
+        - label: "Untestable"
+        - label: "Cosmetic failure"
+        - label: "Security failure"
+        - label: "Privacy failure"
+
+
+  - type: checkboxes
+    id: frequency
+    attributes:
+      label: Frequency
+      description: Reproducing the observations
+      options:
+        - label: "Observed nearly 100% of the time"
+        - label: "Frequently but not consistently"
+        - label: "Infrequently but observable"
+        - label: "Difficult to observe, for unknown reasons"
+        - label: "Seems to depend on external factors"
+
+  - type: markdown
+    id: defect_usertype_title
+    attributes:
+      value: "## User Type"
+
+  - type: checkboxes
+    id: usertype
+    attributes:
+      label: User Type (As a …)
+      description: Who is encountering this integration issue.
+      options:
+        - label: "**Unknown** user type, possibly not provided"
+        - label: "**Initiative Maintainer** Manages Initiatives and related elements"
+        - label: "**Initiative Member** Participates in Initiative as Whole Team member"
+        - label: "**Component Project Maintainer** Manages Component Projects and related elements"
+        - label: "**Component Project Member** Participates in Component Projects as Whole Team Member"
+        - label: "**Persistent Team Member** Participates on a regular ongoing basis"
+        - label: "**Atomic Team Member** Participates on irregular basis"
+        - label: "**External Contributor** Not a formal member of any Whole Team"
+        - label: "**Customer** Adopter of Agile for Volunteers"
+        - label: "**Curious User** Checking out Agile for Volunteers"
+        - label: "**Any or All** user types listed above"
+  
+  - type: markdown
+    id: defect_findings_title
+    attributes:
+      value: "## Findings"
+
+  - type: textarea
+    id: platform
+    attributes:
+      label: Platform
+      description: Where are we running and how?
+      placeholder: |
+        - Cloud/Local/Desktop/Mobile/etc
+        - OS Version + other device data
+        - Runtime version(s) eg gnucobol 4.0
+        - Anything else
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: target
+    attributes:
+      label: Target
+      description: A file, data source, external service, etc…
+      placeholder: |
+        - Describe the inputs to this Back End
+        - Attach a file as needed
+        - Include URLs for external services, etc
+
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How to make this happen, be precise!
+      placeholder: |
+        1. Any setup
+        2. Execution
+        3. Outcomes
+
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Given the Steps above, what should have occurred?
+      placeholder: |
+        This may be a guess or presumptive, but there are reasonable expectations
+        one should have, which can be described here.
+
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Given the Steps above, what actually occurred?
+      placeholder: |
+        Include as much detail as possible, including screen shots, etc.
+
+    validations:
+      required: true
+
+
+  - type: markdown
+    id: defect_linking_title
+    attributes:
+      value: "# Linked Issues"
+
+  - type: markdown
+    id: defect_linking_description
+    attributes:
+      value: |
+        Link issues by url (see info for issue linking bottom of page) to indicate
+        graph relationship between them, with tags in a list indicating the link relationship.
+
+        Tags and Linked Issues
+        - :task --> Potentially-related Story or Feature Task (root cause, etc)
+        - :integ --> Integration Defect in other Component Project
+        - :merge-to --> a Defect that is a merging of this and other Defects
+        - :merge-from <-- a Defect that was merged into this Defect
+        - :split-to --> a Defect that is one of multiple Tasks derived from this Defect
+        - :split-from <-- a Defect that was split into this and other Defects
+        - :spike-to --> a virtual Defect for planning and estimation of related Defects
+        - :spike-from <-- a real Defect connected to a virtual spike Defect
+
+        Merge-to and Split-to Defect issue(s) should be **Closed as Not Planned** in favor of the
+        consolidated or expanded Defect issue(s), as appropriate.
+        
+        Do not delete, mark as merge or split and **Closed as Not Planned**.
+
+  - type: textarea
+    id: linking
+    attributes:
+      label: Linked Issues
+      description: "Tag issue URLs with :task , :integ , :merge-to , :split-from , etc"
+      placeholder: |
+        - :task issue link within component project repo
+        - :merge-to this issue merges into a new Defect issue
+        - :split-from this issue is one refactor from a parent Defect issue
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: defect_issuegraph_title
+    attributes:
+      value: "## Issue Graph"
+
+  - type: markdown
+    id: defect_issuegraph_description
+    attributes:
+      value: |
+        A visualization of Linked Issues as indicated above, updated programmatically, please leave as is.
+
+        As issues are linked or removed, the visualization can be updated via automation.
+
+  - type: textarea
+    id: issuegraph
+    attributes:
+      label: Issue Graph
+      description: Do not edit, will update via automation
+      value: |
+        classDiagram
+          direction TB
+          class Int Defect {
+            Coming : Soon
+          }
+      render: mermaid
+
+  - type: markdown
+    id: defect_references_titles
+    attributes:
+      value: "## References"
+
+  - type: markdown
+    id: defect_references_description
+    attributes:
+      value: |
+        Links to external specs, documents, RFCs, accepted standards, examples, etc
+        
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Place useful information close for implementors to find…
+      placeholder: |
+        - Links to resources to aid in implementation of this User Story
+        - to External API Specifications, Accessibility Standards
+        - to Verification/Certification tools
+        - to Similar features in other projects/platforms
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: defect_notes_title
+    attributes:
+      value: "## Notes"
+
+  - type: markdown
+    id: defect_notes_description
+    attributes:
+      value: |
+        Non-defect/implementation knowledge and insight
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional meta detail
+      placeholder: Useful information for planning and implementation, etc.
+    validations:
+      required: false
+
+  - type: markdown
+    id: defect_retro_title
+    attributes:
+      value: "## Retrospective"
+
+  - type: markdown
+    id: defect_title_description
+    attributes:
+      value: |
+        This is a postmortem summary to capture considerations and learnings for
+        review in the future or to add to discussion of future implementation tasks
+        in this and other Component Projects and Initiatives.
+
+  - type: textarea
+    id: retro
+    attributes:
+      label: Retrospective
+      description: To aid in iterative process improvement and learning
+      placeholder: |
+        Anything that may contribute to other User Stories and other project effort.
+
+    validations:
+      required: false
+
+  - type: markdown
+    id: defect_helpful_title
+    attributes: 
+      value: "## Helpful Issue-filing Links"
+
+  - type: markdown
+    id: defect_helpful_description
+    attributes: 
+      value: |
+        - [Linking to Issues and PRs across Repositories](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
