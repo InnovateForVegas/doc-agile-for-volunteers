@@ -17,18 +17,24 @@
 
 blank_issues_enabled: false
 contact_links:
+  - name: "Discussion: Agile for Volunteers Iteration"
+    url: https://github.com/ORG-OR-USER/BE-PROJECT-NAME/discussions/categories/iteration
+    about: GitHub Discussion about a current Initiative Iteration for this Component Project
   - name: "Discussion: Back End Implementation Design"
     url: https://github.com/ORG-OR-USER/BE-PROJECT-NAME/discussions/categories/design
-    about: GitHub Discussion for pondering Back End Implementation tuning and ideas
+    about: GitHub Discussion pondering this Back End Implementation tuning and ideas
   - name: "Discussion: External Defect"
     url: https://github.com/ORG-OR-USER/BE-PROJECT-NAME/discussions/categories/external-defect
     about: GitHub Discussion of externally-discovered defects with project team
-  - name: "Discussion: Repo"
+  - name: "Discussion: This Repository"
     url: https://github.com/ORG-OR-USER/BE-PROJECT-NAME/discussions/categories/repo
-    about: GitHub Discussion about this component project repository 
-  - name: "Discussion: Agile for Volunteers Iteration"
-    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/iteration
-    about: GitHub Discussion about a current Initiative Iteration
+    about: GitHub Discussion about this Component Project repository
+  - name: "Discussion: INITIATIVE-NAME Initiative Feature Request"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/feature-request
+    about: GitHub Discussion for pondering focused new INITIATIVE-NAME Features
+  - name: "Discussion: INITIATIVE-NAME Initiative Theme Request"
+    url: https://github.com/ORG-OR-USER/OV-PROJECT-NAME/discussions/categories/theme-request
+    about: GitHub Discussion for pondering broad new INITIATIVE-NAME Themes
   - name: "EXTERNAL example"
     url: https://example.com
     about: Visit here for general discussion, future notions, etc
