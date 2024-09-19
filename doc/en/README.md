@@ -27,6 +27,7 @@ The document collection is broken down along those component lines with the foll
 | [Principles](principles.md)                      | Application and Adaptation of Agile Principles for Volunteers             |
 | [Process](process.md)                            | An Agile Process and Workflow Suggestions for Volunteer Initiatives       |
 | [Teams](teams.md)                                | Some detail about Whole, Persistent, and Atomic Teams                     |
+| [Metrics](metrics.md)                            | Using Torques instead of Story Points, and pacing over grading…           |
 | [Meetings](meetings.md)                          | Meetings, Minutes, and Outcomes in the Volunteer context                  |
 | [Issue Hierarchy](hierarchy.md)                  | Use of GitHub Issues to Plan and Implement Initiatives                    |
 | [INVEST in Planning](invest.md)                  | The INVEST acronym for composition of effective Planning Issues           |
