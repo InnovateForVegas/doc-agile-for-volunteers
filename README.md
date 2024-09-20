@@ -19,6 +19,8 @@
 
 # Agile for Volunteers
 
+## Documentation Component Project
+
 How to use Agile for Volunteers, with issue templates and other ideas concerning maximizing the time, effort, and expertise offered by Civic Volunteers toward the execution, deployment, and ongoing improvement of community elevation projects.
 
 ## Project Policies
