@@ -24,6 +24,9 @@ remove:
 # Create or Edit
 use:
 # Initiative
+  - name: cprepo
+    description: "Component Project Repository"
+    color: "1166CC"
   - name: plan
     description: "Agile Planning Item"
     color: "2277DD"
