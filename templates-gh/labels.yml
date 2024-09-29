@@ -169,6 +169,9 @@ use:
     description: "Component Project - Audio Assets"
     color: "CFDFDF"
 
+  - name: cp-conf
+    description: "Component Project - Configuration Elements"
+    color: "CFDFDF"
   - name: cp-bom
     description: "Component Project - Bill of Materials"
     color: "CFDFDF"
