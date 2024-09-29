@@ -135,6 +135,9 @@ use:
   - name: cp-spi
     description: "Component Project - SPI Spec"
     color: "CFDFDF"
+  - name: cp-ns
+    description: "Component Project - Namespace/Schema"
+    color: "CFDFDF"
   - name: cp-app
     description: "Component Project - Application"
     color: "CFDFDF"
