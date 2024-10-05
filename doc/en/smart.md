@@ -19,6 +19,8 @@
 
 # The S.M.A.R.T. Acronym for Tasks
 
+**Note**: This acronym is obviously based on English words forming the resulting English Language acronym. While it may not translate to any useful acronym in other languages, the lesson which might come from it should remain.
+
 In the second half of an article written by Bill Wake [XP123 - INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/), the author provides some additional insight in the form of another useful acronym, which we can apply to the Implementation Tasks in our [Issue Hierarchy](hierarchy.md).
 
 | Letter | Word         | Expanded                                                                                                      |

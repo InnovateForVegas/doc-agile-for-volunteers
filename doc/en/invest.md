@@ -19,6 +19,8 @@
 
 # The I.N.V.E.S.T. Acronym for User Stories (and More)
 
+**Note**: This acronym is obviously based on English words forming the resulting English Language acronym. While it may not translate to any useful acronym in other languages, the lesson which might come from it should remain.
+
 From [Wikipedia - INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) and various Agile-related resources, as conceived by Bill Wake and speaking directly of Product Backlog Items (PBI) which may be User Stories, but they need not be (and this is how we will apply them, in a larger context):
 
 | Letter | Word          | Expanded                                                                                                      |
