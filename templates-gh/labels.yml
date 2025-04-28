@@ -113,6 +113,9 @@ use:
   - name: pause
     description: "Paused in Progress"
     color: "F3DD45"
+  - name: blocked
+    description: "Progress Blocked"
+    color: "F3DD45"
 
   - name: cp-init
     description: "Component Project - Initiative"
